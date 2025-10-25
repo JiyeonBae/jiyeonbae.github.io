@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="assets/css/custom.css">
+
 # Jiyeon Bae
 
 <img src="./me.jpg" alt="profile photo" width="180" align="left" style="margin-right:20px; border-radius:15px;">
