@@ -1,3 +1,36 @@
 footer, .site-footer, .page-footer, .footer, .site-footer-owner {
   display: none !important;
 }
+
+<div class="pub-list">
+
+  <!-- 1개 항목 -->
+  <div class="pub-item">
+    <img class="pub-thumb" src="./img/pubs/chi25-ui-search.jpg" alt="Paper thumbnail: inspirational UI search">
+    <div>
+      <h3 class="pub-title">Leveraging Multimodal LLM for Inspirational User Interface Search</h3>
+      <p class="pub-authors">Seokhyeon Park, <u>Jiyeon Bae</u>, Soohyun Lee, Jaeyoung Kim, Jinwook Seo</p>
+      <p class="pub-venue">In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI ’25)</p>
+      <div class="pub-actions">
+        <a class="badge" href="https://arxiv.org/abs/2507.02225" target="_blank" rel="noopener">PDF</a>
+        <a class="badge" href="https://github.com/JiyeonBae/dr-metric-selection" target="_blank" rel="noopener">Code</a>
+        <a class="badge" href="https://youtu.be/your-demo" target="_blank" rel="noopener">Video</a>
+        <!-- 필요 없으면 지워도 됨 -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 항목 복제해서 추가 -->
+  <div class="pub-item">
+    <img class="pub-thumb" src="./img/pubs/pvis25-misleading.jpg" alt="Paper thumbnail: misleading visual elements">
+    <div>
+      <h3 class="pub-title">Automated Pipeline for Detecting and Analyzing Misleading Visual Elements</h3>
+      <p class="pub-authors">Min Hyeong Kim, <u>Jiyeon Bae</u>, etc.</p>
+      <p class="pub-venue">Proceedings of the 18th IEEE Pacific Visualization Conference (PacificVis ’25)</p>
+      <div class="pub-actions">
+        <a class="badge" href="./papers/pvis25-misleading.pdf">PDF</a>
+      </div>
+    </div>
+  </div>
+
+</div>
