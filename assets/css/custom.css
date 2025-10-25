@@ -17,6 +17,8 @@ footer, .site-footer, .page-footer, .footer, .site-footer-owner {
 h1 {
   color: #333;
   margin-bottom: 1.5rem;
+  border-bottom: 2px solid #159957;
+  padding-bottom: 0.5rem;
 }
 
 h2 {
@@ -30,6 +32,14 @@ h2 {
 /* 프로필 사진 */
 img[align="left"] {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Affiliation */
+.affiliation {
+  margin-top: 0.5rem;
+  color: #888;
+  font-size: 0.95em;
+  line-height: 1.4;
 }
 
 /* About 섹션 */
@@ -97,11 +107,4 @@ p[align="center"] sub {
     display: block;
     margin: 0 auto 1rem auto !important;
   }
-}
-
-.affiliation {
-  margin-top: 0.5rem;
-  color: #888;
-  font-size: 0.95em;
-  line-height: 1.4;
 }
