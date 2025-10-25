@@ -1,4 +1,100 @@
-
+/* Footer 제거 */
 footer, .site-footer, .page-footer, .footer, .site-footer-owner {
   display: none !important;
+}
+
+/* 상단 헤더 제거 */
+.page-header {
+  display: none;
+}
+
+.main-content {
+  max-width: 900px;
+  padding: 3rem 2rem;
+}
+
+/* 제목 스타일 */
+h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  color: #159957;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #159957;
+  padding-bottom: 0.5rem;
+}
+
+/* 프로필 사진 */
+img[align="left"] {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* About 섹션 */
+p {
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Publications */
+.pub-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pub-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pub-item b {
+  font-size: 1.1em;
+  color: #333;
+  line-height: 1.4;
+}
+
+/* 링크 스타일 */
+a {
+  color: #159957;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #155799;
+  text-decoration: underline;
+}
+
+/* Footer */
+hr {
+  margin: 3rem 0 2rem 0;
+  border: 0;
+  border-top: 1px solid #e1e4e8;
+}
+
+p[align="center"] {
+  color: #666;
+}
+
+p[align="center"] sub {
+  font-size: 0.9em;
+}
+
+/* 반응형 */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 2rem 1rem;
+  }
+  
+  img[align="left"] {
+    float: none !important;
+    display: block;
+    margin: 0 auto 1rem auto !important;
+  }
 }
