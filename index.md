@@ -12,7 +12,7 @@
 
 ## About
 
-I am an M.S. student at Seoul National University, advised by Prof. Jinwook Seo in the Human-Computer Interaction Lab (HCIL). My research lies at the intersection of Visual Analytics, Human-Computer Interaction (HCI), and High-Dimensional Data.
+I am an M.S. student at <b><a href="https://www.snu.ac.kr/index.html">Seoul National University</a></b>, advised by Prof. <b><a href="https://hcil.snu.ac.kr/people/jinwook-seo">Jinwook Seo</a></b> in the <b><a href="https://hcil.snu.ac.kr">Human-Computer Interaction Lab (HCIL)</a></b>. My research lies at the intersection of Visual Analytics, Human-Computer Interaction (HCI), and High-Dimensional Data.
 
 ## Publications
 
