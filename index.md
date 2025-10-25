@@ -6,7 +6,7 @@
 
 <a href="mailto:jybae@hcil.snu.ac.kr">Email</a> · <a href="https://scholar.google.com/citations?user=BETDiI4AAAAJ&hl=ko">Google Scholar</a> · <a href="./cv.pdf">CV</a>
 
-<p class="affiliation"><b>Master's Student<br>Seoul National University, Korea</p>
+<p class="affiliation">Master's Student<br>Seoul National University, Korea</p>
 
 <br clear="left"/>
 
