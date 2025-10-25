@@ -1,6 +1,6 @@
 # Jiyeon Bae
 
-<img src="./img/profile.jpg" alt="profile photo" width="180" align="left" style="margin-right:20px; border-radius:15px;">
+<img src="./me.jpg" alt="profile photo" width="180" align="left" style="margin-right:20px; border-radius:15px;">
 
 [Email](jybae@hcil.snu.ac.kr) · [Google Scholar]([https://scholar.google.com/](https://scholar.google.com/citations?user=BETDiI4AAAAJ&hl=ko)) · [CV](./cv.pdf)
 
