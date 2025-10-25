@@ -98,3 +98,10 @@ p[align="center"] sub {
     margin: 0 auto 1rem auto !important;
   }
 }
+
+.affiliation {
+  margin-top: 0.5rem;
+  color: #888;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
