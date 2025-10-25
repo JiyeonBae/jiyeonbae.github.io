@@ -3,6 +3,8 @@
 [Email](jybae@hcil.snu.ac.kr) · [Google Scholar]([https://scholar.google.com/](https://scholar.google.com/citations?user=BETDiI4AAAAJ&hl=ko)) · [CV](./cv.pdf)
 
 ## About
+<img src="./me.jpeg" alt="profile photo" width="150" align="left" style="margin-right:20px; border-radius:15px;">
+
 I am an M.S. student at Seoul National University, advised by Prof. Jinwook Seo in the Human-Computer Interaction Lab (HCIL).
 My research lies at the intersection of Visual Analytics, Human-Computer Interaction (HCI), and High-Dimensional Data Analysis.
 
