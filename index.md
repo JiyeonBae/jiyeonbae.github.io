@@ -21,6 +21,6 @@ J. Bae, H. Jeon, J. Seo. 2025.
   <sub>
     <b>Jiyeon Bae, M.S. Student</b><br>
     Human-Computer Interaction Lab (HCIL) @ Seoul National University<br>
-    📧 <a href="mailto:jybae@hcil.snu.ac.kr">you@domain.com</a>
+    📧 <a href="mailto:jybae@hcil.snu.ac.kr">jybae@hcil.snu.ac.kr</a>
   </sub>
 </p>
