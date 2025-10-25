@@ -68,16 +68,16 @@ p {
   line-height: 1.4;
 }
 
-/* 링크 스타일 - 더 어두운 초록색 */
+/* 링크 스타일 */
 a {
-  color: #0d7038;
+  color: #159957;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
 }
 
 a:hover {
-  color: #094d26;
+  color: #155799;
   text-decoration: underline;
 }
 
