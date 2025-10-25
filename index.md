@@ -2,7 +2,7 @@
 
 <img src="./me.jpg" alt="profile photo" width="180" align="left" style="margin-right:20px; border-radius:15px;">
 
-[Email](jybae@hcil.snu.ac.kr) · [Google Scholar]([https://scholar.google.com/](https://scholar.google.com/citations?user=BETDiI4AAAAJ&hl=ko)) · [CV](./cv.pdf)
+[Email](mailto:jybae@hcil.snu.ac.kr) · [Google Scholar](https://scholar.google.com/citations?user=BETDiI4AAAAJ&hl=ko) · [CV](./cv.pdf)
 
 <br clear="left"/>
 
