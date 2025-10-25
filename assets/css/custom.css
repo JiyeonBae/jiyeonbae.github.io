@@ -1,4 +1,9 @@
-/* 상단 헤더 완전 제거 */
+/* Footer 제거 */
+footer, .site-footer, .page-footer, .footer, .site-footer-owner {
+  display: none !important;
+}
+
+/* 상단 헤더 제거 */
 .page-header {
   display: none;
 }
@@ -59,6 +64,7 @@
   border-bottom: 2px solid #159957;
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
+  margin-top: 2.5rem;
 }
 
 .pub-item {
