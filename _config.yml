@@ -1,5 +1,3 @@
 title: Jiyeon Bae
 description: Master's student at Seoul National University, Human-Computer Interaction Lab (HCIL)
-remote_theme: mmistakes/minimal-mistakes
-plugins:
-  - jekyll-include-cache
+theme: jekyll-theme-cayman
