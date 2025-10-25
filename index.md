@@ -16,6 +16,9 @@ My research lies at the intersection of Visual Analytics, Human-Computer Interac
   </div>
   <div style="clear:left;"></div>
 </div>
+
+<br><br>
+
 ---
 <p align="center">
   <sub>
