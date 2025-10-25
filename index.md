@@ -13,9 +13,18 @@ I am an M.S. student at Seoul National University, advised by Prof. Jinwook Seo 
 My research lies at the intersection of Visual Analytics, Human-Computer Interaction (HCI), and High-Dimensional Data.
 
 ## Publications
-**Metric Design!= Metric Behavior: Improving Metric Selection for the Unbiased Evaluation of Dimensionality Reduction**  
-J. Bae, H. Jeon, J. Seo. 2025.  
-[PDF](./mdmb.pdf) · [arXiv](https://arxiv.org/abs/2507.02225) · [Code](https://github.com/JiyeonBae/dr-metric-selection.git)
+
+<div class="pub-item">
+  <img class="pub-thumb" src="./paper.png" alt="thumbnail" style="width:140px; border-radius:8px; float:left; margin-right:16px;">
+
+  <div>
+    <b>Understanding Bias in Perceiving Dimensionality Reduction Projections</b><br>
+    J. Bae, H. Jeon, J. Seo. 2025.<br>
+    [PDF](./mdmb.pdf) · [arXiv](https://arxiv.org/abs/2507.02225) · [Code](https://github.com/JiyeonBae/dr-metric-selection.git)
+  </div>
+
+  <div style="clear:left;"></div>
+</div>
 
 ---
 
