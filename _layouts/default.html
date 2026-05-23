@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title | default: "Jiyeon Bae" }}</title>
+  <meta name="description" content="Jiyeon Bae — M.S. Student at Seoul National University (HCIL). Visual Analytics, HCI, High-Dimensional Data.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <nav class="nav-links">
+        <a href="/"{% if page.url == "/" %} class="is-active"{% endif %}>Home</a>
+        <a href="/#publications">Publications</a>
+        <a href="/projects/"{% if page.url contains "projects" %} class="is-active"{% endif %}>Projects</a>
+        <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+
+    <footer class="foot">
+      Jiyeon Bae &middot; Human-Computer Interaction Lab (HCIL), Seoul National University<br>
+      <a href="mailto:jybae@hcil.snu.ac.kr">jybae@hcil.snu.ac.kr</a>
+    </footer>
+  </main>
+</body>
+</html>
