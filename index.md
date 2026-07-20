@@ -101,24 +101,24 @@ title: Jiyeon Bae
     <div class="tl">
       <div class="tl-item">
         <div class="tl-main">
-          <p class="tl-title"><a href="https://pacificvis2026.github.io/">IEEE PacificVis 2026</a> &mdash; Poster Presentations (2)</p>
-          <p class="tl-sub">Sydney, Australia</p>
+          <p class="tl-title"><a href="https://pacificvis2026.github.io/">IEEE PacificVis 2026</a></p>
+          <p class="tl-sub">Poster Presentations (2) &middot; Sydney, Australia</p>
         </div>
         <p class="tl-date">Apr 2026</p>
       </div>
       <div class="tl-item">
         <div class="tl-main">
-          <p class="tl-title"><a href="https://ieeevis.org/year/2025/program/session_short8.html#list">IEEE VIS 2025</a> &mdash; Oral Talk</p>
-          <p class="tl-sub">Vienna, Austria</p>
+          <p class="tl-title"><a href="https://ieeevis.org/year/2025/program/session_short8.html#list">IEEE VIS 2025</a></p>
+          <p class="tl-sub">Short Paper Presentation &middot; <em>Visualization with/for/in AI</em> Session &middot; Vienna, Austria</p>
         </div>
         <p class="tl-date">Nov 2025</p>
       </div>
       <div class="tl-item">
         <div class="tl-main">
-          <p class="tl-title"><a href="https://koreavis.org/2025">K&ndash;VIS 2025 (3rd Korea Visualization Workshop)</a> &mdash; Oral Talk</p>
-          <p class="tl-sub">POSTECH, Korea</p>
+          <p class="tl-title"><a href="https://koreavis.org/2025">K&ndash;VIS 2025 (3rd Korea Visualization Workshop)</a></p>
+          <p class="tl-sub">Research Presentation &middot; POSTECH, Pohang, Korea</p>
         </div>
-        <p class="tl-date">Jul 2025</p>
+        <p class="tl-date">Nov 2025</p>
       </div>
     </div>
   </section>
