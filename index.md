@@ -109,16 +109,16 @@ title: Jiyeon Bae
       <div class="tl-item">
         <div class="tl-main">
           <p class="tl-title"><a href="https://ieeevis.org/year/2025/program/session_short8.html#list">IEEE VIS 2025</a></p>
-          <p class="tl-sub">Short Paper Presentation &middot; <em>Visualization with/for/in AI</em> Session &middot; Vienna, Austria</p>
+          <p class="tl-sub">Short Paper Talk &middot; Session: <em>Visualization with/for/in AI</em> &middot; Vienna, Austria</p>
         </div>
         <p class="tl-date">Nov 2025</p>
       </div>
       <div class="tl-item">
         <div class="tl-main">
-          <p class="tl-title"><a href="https://koreavis.org/2025">K&ndash;VIS 2025 (3rd Korea Visualization Workshop)</a></p>
-          <p class="tl-sub">Research Presentation &middot; POSTECH, Pohang, Korea</p>
+          <p class="tl-title"><a href="https://koreavis.org/2025">K-VIS 2025 (The 3rd Korea Visualization Workshop)</a></p>
+          <p class="tl-sub">Research Talk &middot; POSTECH, Pohang, Korea</p>
         </div>
-        <p class="tl-date">Nov 2025</p>
+        <p class="tl-date">Jul 2025</p>
       </div>
     </div>
   </section>
