@@ -36,7 +36,7 @@ title: Jiyeon Bae
     <div class="tags">
       <span class="tag">Human-Computer Interaction</span>
       <span class="tag">Visual Analytics</span>
-      <span class="tag">Artificial Intelligence</span>
+      <span class="tag">Human-Centered AI</span>
       <span class="tag">AR / VR</span>
     </div>
   </section>
