@@ -7,7 +7,7 @@ title: Jiyeon Bae
     <h2 class="block-title">About</h2>
     <div class="hero-bio">
       <p>Hi 👋&nbsp; I'm a M.S. student at the <a href="https://hcil.snu.ac.kr">Human-Computer Interaction Lab</a> at <a href="https://www.snu.ac.kr/index.html">Seoul National University</a>, advised by Professor <a href="https://hcil.snu.ac.kr/people/jinwook-seo">Jinwook Seo</a>.</p>
-      <p>In August 2026, I will join the <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>, <a href="https://www.harvard.edu/">Harvard University</a>, as a Visiting Researcher.</p>
+      <p>I'm currently a Visiting Researcher at the <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>, <a href="https://www.harvard.edu/">Harvard University</a>.</p>
       <p>My research focuses on designing human-centered interactive systems that leverage AI, visualization, and immersive interfaces to help people explore, interact with, and make sense of complex data.</p>
     </div>
   </section>
