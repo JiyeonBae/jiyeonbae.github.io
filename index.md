@@ -16,7 +16,7 @@ title: Jiyeon Bae
     <div class="news">
       <div class="news-item">
         <p class="news-date">Aug 2026</p>
-        <p class="news-text">Joining the <span class="b">Visual Computing Group, Harvard University</span> as a research intern.</p>
+        <p class="news-text">Joining the <span class="b">Visual Computing Group, Harvard University</span> as a research intern. ✨</p>
       </div>
       <div class="news-item">
         <p class="news-date">Apr 2026</p>
