@@ -48,6 +48,16 @@ title: Jiyeon Bae
           </div>
         </div>
       </article>
+      <article class="pub">
+        <div class="pub-thumb">
+          <img src="/project/dataset.png" alt="paper teaser" onerror="this.style.display='none'">
+        </div>
+        <div class="pub-body">
+          <p class="pub-venue">Korea Multimedia Society Summer Conference 2020</p>
+          <h3 class="pub-title">Development of 3D Reconstruction and Object Recognition Model Based on Single Dataset</h3>
+          <p class="pub-authors">Nahyuk Lee, Hannah Noh, <strong>Jiyeon Bae</strong>, Kyunghun Nam, Sanghyun Seo, and Kyunghyun Yoon</p>
+        </div>
+      </article>
     </div>
   </section>
 

@@ -49,16 +49,6 @@ permalink: /projects/
     </article>
     <article class="pub">
       <div class="pub-thumb">
-        <img src="/project/dataset.png" alt="" onerror="this.style.display='none'">
-      </div>
-      <div class="pub-body">
-        <p class="pub-venue">Dec 2019 &ndash; Feb 2020<span class="pub-fund">Funded by the Ministry of Science and ICT, Republic of Korea.</span></p>
-        <h3 class="poster-title">Dataset Construction Pipeline for 3D Reconstruction</h3>
-        <p class="pub-authors">Developed a semi-automated pipeline incorporating image feature extraction, object segmentation, and ORB/SURF-based feature matching.</p>
-      </div>
-    </article>
-    <article class="pub">
-      <div class="pub-thumb">
         <img src="/project/msc.png" alt="" onerror="this.style.display='none'">
       </div>
       <div class="pub-body">
