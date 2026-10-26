@@ -9,12 +9,32 @@ permalink: /projects/
   <div class="pubs">
     <article class="pub">
       <div class="pub-thumb">
+        <img src="/project/rolecast.png" alt="" onerror="this.style.display='none'">
+      </div>
+      <div class="pub-body">
+        <p class="pub-venue">Apr &ndash; Jun 2026</p>
+        <h3 class="poster-title">RoleCast: Multi-Agent Feedback for Broadcast Planning</h3>
+        <p class="pub-authors">Built a multi-agent system for checklist-based critique and conflict mediation across broadcast production roles, grounded in <a href="https://www.imbc.com/">MBC</a> data via dense/BM25 retrieval and evaluated with five broadcasting experts.</p>
+      </div>
+    </article>
+    <article class="pub">
+      <div class="pub-thumb">
+        <img src="/project/youtrap.png" alt="" onerror="this.style.display='none'">
+      </div>
+      <div class="pub-body">
+        <p class="pub-venue">Oct &ndash; Dec 2025</p>
+        <h3 class="poster-title">YouTrap: You&rsquo;re Trapped in the YouTube Filter Bubble</h3>
+        <p class="pub-authors">Designed a topic visualization Chrome extension that raises awareness of filter bubbles in YouTube recommendations, built with React, TypeScript, and D3 and evaluated in a 12-participant study.</p>
+      </div>
+    </article>
+    <article class="pub">
+      <div class="pub-thumb">
         <img src="/project/sisyphus.png" alt="" onerror="this.style.display='none'">
       </div>
       <div class="pub-body">
         <p class="pub-venue">May &ndash; Jul 2022</p>
-        <h3 class="poster-title">Interactive Exhibition &lsquo;Sisyphus&rsquo;</h3>
-        <p class="pub-authors">Created an audience-responsive projection-mapping installation inspired by the myth of Sisyphus, with character motion accelerating as viewers approached.</p>
+        <h3 class="poster-title">Sisyphus: Interactive Media Installation</h3>
+        <p class="pub-authors">Created Maya animations exploring repetitive daily routines, projection-mapped onto a motorized wheel in a Kinect/Unity installation that responds to viewer position; shown to 200+ visitors.</p>
       </div>
     </article>
     <article class="pub">
@@ -23,8 +43,8 @@ permalink: /projects/
       </div>
       <div class="pub-body">
         <p class="pub-venue">Apr &ndash; Jun 2022</p>
-        <h3 class="poster-title">Time Management App &lsquo;Dot.&rsquo;</h3>
-        <p class="pub-authors">Developed a low-friction time-tracking app in React Native.</p>
+        <h3 class="poster-title">Dot.: Time Management Application</h3>
+        <p class="pub-authors">Designed activity start/end controls to reduce logging effort, and implemented real-time logging and calendar review in React Native.</p>
       </div>
     </article>
     <article class="pub">
@@ -43,8 +63,8 @@ permalink: /projects/
       </div>
       <div class="pub-body">
         <p class="pub-venue">Oct &ndash; Dec 2019</p>
-        <h3 class="poster-title">Motion Stimulus Camera (MSC)</h3>
-        <p class="pub-authors">Designed and built a custom digital camera using a Raspberry Pi, featuring a film-grain effect and a 3D-printed enclosure.</p>
+        <h3 class="poster-title">Motion Stimulus Camera</h3>
+        <p class="pub-authors">Built a Raspberry Pi camera with physical controls, an LCD, and a film-grain effect in a custom 3D-printed enclosure; ranked first in course project evaluations.</p>
       </div>
     </article>
     <article class="pub">
@@ -53,8 +73,8 @@ permalink: /projects/
       </div>
       <div class="pub-body">
         <p class="pub-venue">Oct 2019</p>
-        <h3 class="poster-title">AR Avatar with Real-Time Facial Motion Capture</h3>
-        <p class="pub-authors">Developed an AR avatar with real-time facial tracking and custom facial blendshapes in Unity.</p>
+        <h3 class="poster-title">Real-Time Facial Motion Capture and AR Avatar</h3>
+        <p class="pub-authors">Integrated a Fuse/Mixamo avatar with real-time facial tracking in Unity AR, customizing eye joints, skinning, and mouth/tongue blendshapes in Maya.</p>
       </div>
     </article>
     <article class="pub">

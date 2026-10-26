@@ -6,9 +6,8 @@ title: Jiyeon Bae
   <section class="block">
     <h2 class="block-title">About</h2>
     <div class="hero-bio">
-      <p>Hi 👋&nbsp; I'm a M.S. student at the <a href="https://hcil.snu.ac.kr">Human-Computer Interaction Lab</a> at <a href="https://www.snu.ac.kr/index.html">Seoul National University</a>, advised by Professor <a href="https://hcil.snu.ac.kr/people/jinwook-seo">Jinwook Seo</a>.</p>
-      <p>I'm currently a Visiting Researcher at the <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>, <a href="https://www.harvard.edu/">Harvard University</a>.</p>
-      <p>My research focuses on designing human-centered interactive systems that leverage AI, visualization, and immersive interfaces to help people explore, interact with, and make sense of complex data.</p>
+      <p>Hi 👋&nbsp; I'm Jiyeon Bae, an M.S. student in Artificial Intelligence at <a href="https://www.snu.ac.kr/">Seoul National University</a>, advised by Prof. <a href="https://hcil.snu.ac.kr/people/jinwook-seo">Jinwook Seo</a> in the <a href="https://hcil.snu.ac.kr/">Human-Computer Interaction Lab</a>. I'm currently a Research Intern in Harvard University's <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>, led by Prof. <a href="https://seas.harvard.edu/person/hanspeter-pfister">Hanspeter Pfister</a>.</p>
+      <p>My research in <strong>human&ndash;computer interaction (HCI)</strong> focuses on designing and evaluating interactive systems that help people develop their own understanding and act on it. My work spans <strong>visualization, human&ndash;AI interaction, and extended reality (XR)</strong>. I study how visual and spatial representations shape what people notice, how AI can help them connect information and reflect on their experiences, and how interfaces enable them to express their intentions and steer system behavior.</p>
     </div>
   </section>
 
@@ -17,7 +16,7 @@ title: Jiyeon Bae
     <div class="news">
       <div class="news-item">
         <p class="news-date">Aug 2026</p>
-        <p class="news-text">Joining the <span class="b">Visual Computing Group, Harvard University</span> as a visiting researcher.</p>
+        <p class="news-text">Joining the <span class="b">Visual Computing Group, Harvard University</span> as a research intern.</p>
       </div>
       <div class="news-item">
         <p class="news-date">Apr 2026</p>
@@ -28,16 +27,6 @@ title: Jiyeon Bae
         <p class="news-text"><span class="b">Metric Design &ne; Metric Behavior</span> was accepted to <span class="b">IEEE VIS 2025</span>.</p>
       </div>
       <!-- 새 소식 추가: <div class="news-item"><p class="news-date">월 년도</p><p class="news-text">내용</p></div> -->
-    </div>
-  </section>
-
-  <section class="block">
-    <h2 class="block-title">Research Interests</h2>
-    <div class="tags">
-      <span class="tag">Human-Computer Interaction</span>
-      <span class="tag">Visual Analytics</span>
-      <span class="tag">Human-Centered AI</span>
-      <span class="tag">AR / VR</span>
     </div>
   </section>
 
@@ -97,38 +86,11 @@ title: Jiyeon Bae
   </section>
 
   <section class="block">
-    <h2 class="block-title">Talks &amp; Presentations</h2>
-    <div class="tl">
-      <div class="tl-item">
-        <div class="tl-main">
-          <p class="tl-title"><a href="https://pacificvis2026.github.io/">IEEE PacificVis 2026</a></p>
-          <p class="tl-sub">Poster Presentations (2) &middot; Sydney, Australia</p>
-        </div>
-        <p class="tl-date">Apr 2026</p>
-      </div>
-      <div class="tl-item">
-        <div class="tl-main">
-          <p class="tl-title"><a href="https://ieeevis.org/year/2025/program/session_short8.html#list">IEEE VIS 2025</a></p>
-          <p class="tl-sub">Short Paper Talk &middot; Session: <em>Visualization with/for/in AI</em> &middot; Vienna, Austria</p>
-        </div>
-        <p class="tl-date">Nov 2025</p>
-      </div>
-      <div class="tl-item">
-        <div class="tl-main">
-          <p class="tl-title"><a href="https://koreavis.org/2025">K-VIS 2025 (The 3rd Korea Visualization Workshop)</a></p>
-          <p class="tl-sub">Research Talk &middot; POSTECH, Pohang, Korea</p>
-        </div>
-        <p class="tl-date">Jul 2025</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="block">
     <h2 class="block-title">Research Experience</h2>
     <div class="tl">
       <div class="tl-item">
         <div class="tl-main">
-          <p class="tl-title">Visiting Researcher</p>
+          <p class="tl-title">Research Intern</p>
           <p class="tl-sub"><a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>, <span class="tl-org">Harvard University</span></p>
         </div>
         <p class="tl-date">Aug 2026 &ndash; Jan 2027</p>
@@ -155,15 +117,15 @@ title: Jiyeon Bae
     <div class="tl">
       <div class="tl-item">
         <div class="tl-main">
-          <p class="tl-title">M.S. in Engineering, Interdisciplinary Program in Artificial Intelligence</p>
-          <p class="tl-sub"><span class="tl-org">Seoul National University</span> &middot; Advisor: Prof. Jinwook Seo</p>
+          <p class="tl-title">M.S. in Artificial Intelligence</p>
+          <p class="tl-sub"><span class="tl-org">Seoul National University</span> &middot; Advisor: Prof. <a href="https://hcil.snu.ac.kr/people/jinwook-seo">Jinwook Seo</a> &middot; GPA 4.0 / 4.3</p>
         </div>
         <p class="tl-date">Sep 2025 &ndash; Present</p>
       </div>
       <div class="tl-item">
         <div class="tl-main">
-          <p class="tl-title">B.S. in Engineering, School of Computer Art <span class="tl-note">(Summa Cum Laude)</span></p>
-          <p class="tl-sub"><span class="tl-org">Chung-Ang University</span> &middot; GPA 4.32 / 4.5</p>
+          <p class="tl-title">B.S. in Engineering, School of Computer Art</p>
+          <p class="tl-sub"><span class="tl-org">Chung-Ang University</span> &middot; GPA 4.32 / 4.5 <span class="tl-note">(Summa Cum Laude)</span></p>
         </div>
         <p class="tl-date">Mar 2019 &ndash; Aug 2023</p>
       </div>
