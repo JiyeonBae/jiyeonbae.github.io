@@ -276,6 +276,19 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
   color: var(--ink-500);
 }
 .pub-authors strong { color: var(--ink-700); font-weight: 600; }
+.pub-authors strong {
+  text-decoration: underline;
+  text-decoration-color: #7dd3fc;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.pub-cite {
+  margin: -.35rem 0 .6rem;
+  font-size: .85rem;
+  font-style: italic;
+  color: var(--ink-500);
+}
+.pub-cite .award { font-style: normal; }
 .pub-fund {
   margin-left: .6rem;
   font-weight: 400;
