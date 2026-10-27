@@ -74,7 +74,7 @@ permalink: /projects/
       <div class="pub-body">
         <p class="pub-venue">Sep 2019</p>
         <h3 class="poster-title">Photogrammetric Reconstruction and 3D Asset Preparation</h3>
-        <p class="pub-authors">Reconstructed a hamburger from 136 images and a bread model from ~50 images with measured reference markers in Agisoft Metashape, then retopologized in Instant Meshes and transferred textures in Maya, fixing missing UVs and a material-dropping export setting before publishing the asset on Sketchfab.</p>
+        <p class="pub-authors">Created textured 3D models of real-world objects through photogrammetry, retopology, and texture transfer, and published the models on Sketchfab.</p>
         <div class="pub-links">
           <a href="https://skfb.ly/opovG" target="_blank" rel="noopener noreferrer">Sketchfab</a>
         </div>
