@@ -312,6 +312,11 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
   background: var(--chip-bg);
   text-decoration: none;
 }
+.title-links {
+  display: inline-flex;
+  margin-left: .6rem;
+  vertical-align: .15em;
+}
 
 /* ===== Footer ===== */
 .foot {

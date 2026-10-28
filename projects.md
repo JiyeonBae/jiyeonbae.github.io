@@ -14,7 +14,7 @@ permalink: /projects/
       <div class="pub-body">
         <p class="pub-venue">Apr &ndash; Jun 2026</p>
         <h3 class="poster-title">RoleCast: Multi-Agent Feedback for Broadcast Planning</h3>
-        <p class="pub-authors">Built a multi-agent system for checklist-based critique and conflict mediation across broadcast production roles, grounded in <a href="https://www.imbc.com/">MBC</a> data via dense/BM25 retrieval and evaluated with five broadcasting experts.</p>
+        <p class="pub-authors">Built a multi-agent system for checklist-based critique and conflict mediation across broadcast production roles, grounded in <a href="https://www.imbc.com/">MBC</a> data via dense/BM25 retrieval and evaluated with five experts.</p>
       </div>
     </article>
     <article class="pub">
@@ -73,11 +73,8 @@ permalink: /projects/
       </div>
       <div class="pub-body">
         <p class="pub-venue">Sep 2019</p>
-        <h3 class="poster-title">Photogrammetric Reconstruction and 3D Asset Preparation</h3>
+        <h3 class="poster-title">Photogrammetric Reconstruction and 3D Asset Preparation<span class="pub-links title-links"><a href="https://skfb.ly/opovG" target="_blank" rel="noopener noreferrer">Sketchfab</a></span></h3>
         <p class="pub-authors">Created textured 3D models of real-world objects through photogrammetry, retopology, and texture transfer, and published the models on Sketchfab.</p>
-        <div class="pub-links">
-          <a href="https://skfb.ly/opovG" target="_blank" rel="noopener noreferrer">Sketchfab</a>
-        </div>
       </div>
     </article>
   </div>
