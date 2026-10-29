@@ -214,6 +214,44 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
   color: var(--accent-dk);
 }
 
+/* ===== Publication topic tags + filter ===== */
+.pub-tags { display: flex; flex-wrap: wrap; gap: .35rem; margin: 0 0 .6rem; }
+/* Per-topic palette: same soft tone, different hue */
+.t-vis { --tag-bg: #eef4fb; --tag-bd: #d6e3f3; --tag-fg: #1d4f96; }
+.t-hai { --tag-bg: #f4f0fc; --tag-bd: #e3daf6; --tag-fg: #5b3fa8; }
+.t-xr  { --tag-bg: #ecf7f2; --tag-bd: #cdeadc; --tag-fg: #1f7351; }
+.t-cv  { --tag-bg: #fdf4e7; --tag-bd: #f3dfbd; --tag-fg: #92560f; }
+.pub-tag {
+  padding: .1rem .55rem;
+  font-size: .7rem;
+  border-radius: 9999px;
+  background: var(--tag-bg, var(--chip-bg));
+  border: 1px solid var(--tag-bd, var(--chip-bd));
+  color: var(--tag-fg, var(--accent-dk));
+}
+.pub-filter { display: flex; flex-wrap: wrap; gap: .35rem; margin: 0 0 1.75rem; }
+/* Same size as .pub-tag; off = neutral gray, on = matches the tag chip */
+.pub-filter button {
+  padding: .1rem .55rem;
+  font: inherit;
+  font-size: .7rem;
+  line-height: inherit;
+  border-radius: 9999px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink-400);
+  cursor: pointer;
+  transition: color .2s, border-color .2s, background .2s;
+}
+.pub-filter button:hover { color: var(--tag-fg, var(--accent)); border-color: var(--tag-fg, var(--accent)); }
+.pub-filter button[aria-pressed="true"] {
+  background: var(--tag-bg, var(--chip-bg));
+  border-color: var(--tag-bd, var(--chip-bd));
+  color: var(--tag-fg, var(--accent-dk));
+}
+.is-filtered-out { display: none !important; }
+.pub-empty { margin: 0; font-size: .9rem; color: var(--ink-400); }
+
 /* ===== Publications (with thumbnail) ===== */
 .pubs { display: flex; flex-direction: column; gap: 2rem; }
 .pub {
