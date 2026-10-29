@@ -218,8 +218,8 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
 .pub-tags { display: flex; flex-wrap: wrap; gap: .35rem; margin: 0 0 .6rem; }
 /* Per-topic palette: same soft tone, different hue */
 .t-vis { --tag-bg: #eef4fb; --tag-bd: #d6e3f3; --tag-fg: #1d4f96; }
-.t-hai { --tag-bg: #f4f0fc; --tag-bd: #e3daf6; --tag-fg: #5b3fa8; }
-.t-xr  { --tag-bg: #ecf7f2; --tag-bd: #cdeadc; --tag-fg: #1f7351; }
+.t-hai { --tag-bg: #ecf7f2; --tag-bd: #cdeadc; --tag-fg: #1f7351; }
+.t-xr  { --tag-bg: #f8eff8; --tag-bd: #ecd5ea; --tag-fg: #8a3a84; }
 .t-cv  { --tag-bg: #fdf4e7; --tag-bd: #f3dfbd; --tag-fg: #92560f; }
 .pub-tag {
   padding: .1rem .55rem;
