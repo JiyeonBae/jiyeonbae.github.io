@@ -42,7 +42,7 @@ permalink: /projects/
         <img src="/project/dot.png" alt="" onerror="this.style.display='none'">
       </div>
       <div class="pub-body">
-        <p class="pub-venue">Apr &ndash; Jun 2022</p>
+        <p class="pub-venue">Mar &ndash; May 2022</p>
         <h3 class="poster-title">Dot.: Time Management Application<span class="pub-links title-links"><a href="/dot.pdf" target="_blank" rel="noopener noreferrer">PDF</a></span></h3>
         <p class="pub-authors">Designed activity start/end controls to reduce logging effort, and implemented real-time logging and calendar review in React Native.</p>
       </div>
