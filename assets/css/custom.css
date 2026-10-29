@@ -256,7 +256,7 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
 .pubs { display: flex; flex-direction: column; gap: 2rem; }
 .pub {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 232px 1fr;
   gap: 1.25rem;
   align-items: start;
 }
@@ -333,12 +333,12 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
   font-weight: 400;
   color: var(--ink-400);
 }
-.pub-links { display: flex; flex-wrap: wrap; gap: .5rem; }
+.pub-links { display: flex; flex-wrap: wrap; gap: .35rem; }
 .pub-links a {
   display: inline-flex;
   align-items: center;
-  padding: .2rem .7rem;
-  font-size: .75rem;
+  padding: .1rem .55rem;
+  font-size: .7rem;
   font-weight: 500;
   border-radius: 9999px;
   border: 1px solid var(--line);
@@ -356,6 +356,8 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
   margin-left: .6rem;
   vertical-align: .15em;
 }
+/* Titles use line-height 1.4; match the body's 1.6 so these equal the Publications buttons */
+.title-links a { line-height: 1.6; }
 
 /* ===== Footer ===== */
 .foot {
