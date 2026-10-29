@@ -237,6 +237,7 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
   transition: transform .5s;
 }
 .pub:hover .pub-thumb img { transform: scale(1.02); }
+.pub-thumb--bleed { padding: 0; }
 
 /* Projects page: smaller thumbnails than home */
 #projects .pub { grid-template-columns: 150px 1fr; }

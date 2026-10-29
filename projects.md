@@ -23,7 +23,7 @@ permalink: /projects/
       </div>
       <div class="pub-body">
         <p class="pub-venue">Oct &ndash; Dec 2025</p>
-        <h3 class="poster-title">YouTrap: You&rsquo;re Trapped in the YouTube Filter Bubble</h3>
+        <h3 class="poster-title">YouTrap: You&rsquo;re Trapped in the YouTube Filter Bubble<span class="pub-links title-links"><a href="/youtrap.pdf" target="_blank" rel="noopener noreferrer">Poster</a></span></h3>
         <p class="pub-authors">Designed a topic visualization Chrome extension that raises awareness of filter bubbles in YouTube recommendations, built with React, TypeScript, and D3 and evaluated in a 12-participant study.</p>
       </div>
     </article>

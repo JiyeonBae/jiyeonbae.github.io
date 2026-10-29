@@ -8,6 +8,26 @@ permalink: /publications/
   <h2 class="block-title">Publications</h2>
   <div class="pubs">
     <article class="pub">
+      <div class="pub-thumb pub-thumb--bleed">
+        <img src="/mymuse.png" alt="paper teaser" onerror="this.style.display='none'">
+      </div>
+      <div class="pub-body">
+        <h3 class="pub-title">MyMuse: A Personal Museum for Continued Inquiry and Reflection</h3>
+        <p class="pub-authors"><strong>Jiyeon Bae</strong>, Chunggi Lee, Jinwook Seo, and Hanspeter Pfister</p>
+        <p class="pub-cite">Under review at ACM CHI Conference on Human Factors in Computing Systems (CHI), 2027</p>
+      </div>
+    </article>
+    <article class="pub">
+      <div class="pub-thumb">
+        <img src="/beyond-the-feed.png" alt="paper teaser" onerror="this.style.display='none'">
+      </div>
+      <div class="pub-body">
+        <h3 class="pub-title">Beyond the Feed: Trajectory-Level Interaction for Understanding and Steering Recommendations Under Short-Term Sensitivity</h3>
+        <p class="pub-authors">Sean Kim, Namhee Kim, <strong>Jiyeon Bae</strong>, Min Hyeong Kim, and Jinwook Seo</p>
+        <p class="pub-cite">Under review at ACM CHI Conference on Human Factors in Computing Systems (CHI), 2027</p>
+      </div>
+    </article>
+    <article class="pub">
       <div class="pub-thumb">
         <img src="/paper.png" alt="paper teaser">
       </div>
