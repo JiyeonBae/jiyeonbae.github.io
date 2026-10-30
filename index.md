@@ -129,7 +129,14 @@ title: Jiyeon Bae
           <p class="tl-title">Research Intern</p>
           <p class="tl-sub"><a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>, <span class="tl-org">Harvard University</span></p>
         </div>
-        <p class="tl-date">Aug 2026 &ndash; Jan 2027</p>
+        <p class="tl-date">Aug 2026 &ndash; Present</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-main">
+          <p class="tl-title">Graduate Researcher</p>
+          <p class="tl-sub"><a href="https://hcil.snu.ac.kr/">Human-Computer Interaction Lab</a>, <span class="tl-org">Seoul National University</span></p>
+        </div>
+        <p class="tl-date">Sep 2025 &ndash; Present</p>
       </div>
       <div class="tl-item">
         <div class="tl-main">
