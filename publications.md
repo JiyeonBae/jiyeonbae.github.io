@@ -24,6 +24,17 @@ permalink: /publications/
         <div class="pub-tags"><span class="pub-tag t-vis">Visualization</span><span class="pub-tag t-hai">Human&ndash;AI Interaction</span></div>
       </div>
     </article>
+    <article class="pub" data-tags="hai xr">
+      <div class="pub-thumb">
+        <img src="/robot.png" alt="paper teaser" onerror="this.style.display='none'">
+      </div>
+      <div class="pub-body">
+        <h3 class="pub-title">EgoMate: Egocentric Human-Robot Collaboration for Spoken Requests in Changing Shared Workspaces</h3>
+        <p class="pub-authors">Chunggi Lee, Florian Zogaj, <strong>Jiyeon Bae</strong>, and Hanspeter Pfister</p>
+        <p class="pub-cite">Under review</p>
+        <div class="pub-tags"><span class="pub-tag t-hai">Human&ndash;AI Interaction</span><span class="pub-tag t-xr">XR &amp; Wearables</span></div>
+      </div>
+    </article>
     <article class="pub" data-tags="vis hai">
       <div class="pub-thumb">
         <img src="/beyond-the-feed.png" alt="paper teaser" onerror="this.style.display='none'">

@@ -44,6 +44,17 @@ title: Jiyeon Bae
           <div class="pub-tags"><span class="pub-tag t-vis">Visualization</span><span class="pub-tag t-hai">Human&ndash;AI Interaction</span></div>
         </div>
       </article>
+      <article class="pub" data-tags="hai xr">
+        <div class="pub-thumb">
+          <img src="/robot.png" alt="paper teaser" onerror="this.style.display='none'">
+        </div>
+        <div class="pub-body">
+          <h3 class="pub-title">EgoMate: Egocentric Human-Robot Collaboration for Spoken Requests in Changing Shared Workspaces</h3>
+          <p class="pub-authors">Chunggi Lee, Florian Zogaj, <strong>Jiyeon Bae</strong>, and Hanspeter Pfister</p>
+          <p class="pub-cite">Under review</p>
+          <div class="pub-tags"><span class="pub-tag t-hai">Human&ndash;AI Interaction</span><span class="pub-tag t-xr">XR &amp; Wearables</span></div>
+        </div>
+      </article>
       <article class="pub" data-tags="vis hai">
         <div class="pub-thumb">
           <img src="/beyond-the-feed.png" alt="paper teaser" onerror="this.style.display='none'">
@@ -127,28 +138,28 @@ title: Jiyeon Bae
       <div class="tl-item">
         <div class="tl-main">
           <p class="tl-title">Research Intern</p>
-          <p class="tl-sub"><a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>, <span class="tl-org">Harvard University</span></p>
+          <p class="tl-sub"><a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>, <span class="tl-org">Harvard University</span> &middot; Advisor: Prof. <a href="https://seas.harvard.edu/person/hanspeter-pfister">Hanspeter Pfister</a></p>
         </div>
         <p class="tl-date">Aug 2026 &ndash; Present</p>
       </div>
       <div class="tl-item">
         <div class="tl-main">
           <p class="tl-title">Graduate Researcher</p>
-          <p class="tl-sub"><a href="https://hcil.snu.ac.kr/">Human-Computer Interaction Lab</a>, <span class="tl-org">Seoul National University</span></p>
+          <p class="tl-sub"><a href="https://hcil.snu.ac.kr/">Human-Computer Interaction Lab</a>, <span class="tl-org">Seoul National University</span> &middot; Advisor: Prof. <a href="https://hcil.snu.ac.kr/people/jinwook-seo">Jinwook Seo</a></p>
         </div>
         <p class="tl-date">Sep 2025 &ndash; Present</p>
       </div>
       <div class="tl-item">
         <div class="tl-main">
           <p class="tl-title">Research Intern</p>
-          <p class="tl-sub"><a href="https://hcil.snu.ac.kr/">Human-Computer Interaction Lab</a>, <span class="tl-org">Seoul National University</span></p>
+          <p class="tl-sub"><a href="https://hcil.snu.ac.kr/">Human-Computer Interaction Lab</a>, <span class="tl-org">Seoul National University</span> &middot; Advisor: Prof. <a href="https://hcil.snu.ac.kr/people/jinwook-seo">Jinwook Seo</a></p>
         </div>
         <p class="tl-date">Dec 2024 &ndash; Aug 2025</p>
       </div>
       <div class="tl-item">
         <div class="tl-main">
           <p class="tl-title">Undergraduate Researcher</p>
-          <p class="tl-sub">Computer Graphics Lab, <span class="tl-org">Chung-Ang University</span></p>
+          <p class="tl-sub">Computer Graphics Lab, <span class="tl-org">Chung-Ang University</span> &middot; Advisor: Prof. <a href="https://scholar.google.com/citations?user=k1SL428AAAAJ&amp;hl=ko">Sanghyun Seo</a></p>
         </div>
         <p class="tl-date">Sep 2019 &ndash; Feb 2020</p>
       </div>
