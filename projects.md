@@ -19,7 +19,12 @@ permalink: /projects/
     </article>
     <article class="pub">
       <div class="pub-thumb">
-        <img src="/project/youtrap.png" alt="" onerror="this.style.display='none'">
+        <button type="button" class="gallery-open" data-gallery="/project/youtrap-1.jpg /project/youtrap-2.jpg /project/youtrap-3.jpg" aria-label="View 3 screenshots of YouTrap">
+          <img src="/project/youtrap.png" alt="">
+          <span class="gallery-count" aria-hidden="true">
+            <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor"><path d="M216,40H72A16,16,0,0,0,56,56V72H40A16,16,0,0,0,24,88V200a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V184h16a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM184,200H40V88H184Zm32-32H200V88a16,16,0,0,0-16-16H72V56H216Z"></path></svg>3
+          </span>
+        </button>
       </div>
       <div class="pub-body">
         <p class="pub-venue">Oct &ndash; Dec 2025</p>
@@ -29,7 +34,12 @@ permalink: /projects/
     </article>
     <article class="pub">
       <div class="pub-thumb">
-        <img src="/project/sisyphus.png" alt="" onerror="this.style.display='none'">
+        <button type="button" class="gallery-open" data-gallery="/project/sisyphus-1.jpg /project/sisyphus-2.jpg /project/sisyphus-3.jpg youtube:3kA-CfJXzQQ" aria-label="View 3 photos and a video of Sisyphus">
+          <img src="/project/sisyphus.png" alt="">
+          <span class="gallery-count" aria-hidden="true">
+            <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor"><path d="M216,40H72A16,16,0,0,0,56,56V72H40A16,16,0,0,0,24,88V200a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V184h16a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM184,200H40V88H184Zm32-32H200V88a16,16,0,0,0-16-16H72V56H216Z"></path></svg>4
+          </span>
+        </button>
       </div>
       <div class="pub-body">
         <p class="pub-venue">May &ndash; Jul 2022</p>
@@ -49,7 +59,12 @@ permalink: /projects/
     </article>
     <article class="pub">
       <div class="pub-thumb">
-        <img src="/project/msc.png" alt="" onerror="this.style.display='none'">
+        <button type="button" class="gallery-open" data-gallery="/project/msc-1.jpg /project/msc-2.jpg /project/msc-3.jpg /project/msc-4.jpg" aria-label="View 4 photos of the Motion Stimulus Camera">
+          <img src="/project/msc.png" alt="">
+          <span class="gallery-count" aria-hidden="true">
+            <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor"><path d="M216,40H72A16,16,0,0,0,56,56V72H40A16,16,0,0,0,24,88V200a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V184h16a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM184,200H40V88H184Zm32-32H200V88a16,16,0,0,0-16-16H72V56H216Z"></path></svg>4
+          </span>
+        </button>
       </div>
       <div class="pub-body">
         <p class="pub-venue">Oct &ndash; Dec 2019</p>
@@ -69,7 +84,27 @@ permalink: /projects/
     </article>
     <article class="pub">
       <div class="pub-thumb">
-        <img src="/project/photogrammetry.png" alt="" onerror="this.style.display='none'">
+        <button type="button" class="gallery-open" data-gallery="/project/sunglasses-1.jpg /project/sunglasses-2.jpg /project/sunglasses-3.jpg /project/sunglasses-4.jpg" aria-label="View 4 photos of the 3D printed sunglasses">
+          <img src="/project/sunglasses-3.jpg" alt="">
+          <span class="gallery-count" aria-hidden="true">
+            <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor"><path d="M216,40H72A16,16,0,0,0,56,56V72H40A16,16,0,0,0,24,88V200a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V184h16a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM184,200H40V88H184Zm32-32H200V88a16,16,0,0,0-16-16H72V56H216Z"></path></svg>4
+          </span>
+        </button>
+      </div>
+      <div class="pub-body">
+        <p class="pub-venue">Sep &ndash; Oct 2019</p>
+        <h3 class="poster-title">3D Printed Cat-Eye Sunglasses</h3>
+        <p class="pub-authors">Designed and fabricated cat-eye sunglasses using Autodesk Maya and FDM 3D printing, with hand-finished frames and professionally fitted lenses. Selected as the top course project.</p>
+      </div>
+    </article>
+    <article class="pub">
+      <div class="pub-thumb">
+        <button type="button" class="gallery-open" data-gallery="/project/photogrammetry-1.jpg /project/photogrammetry-2.jpg /project/photogrammetry-3.jpg /project/photogrammetry-4.jpg /project/photogrammetry-5.jpg" aria-label="View 5 photos of the photogrammetry project">
+          <img src="/project/photogrammetry.png" alt="">
+          <span class="gallery-count" aria-hidden="true">
+            <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor"><path d="M216,40H72A16,16,0,0,0,56,56V72H40A16,16,0,0,0,24,88V200a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V184h16a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM184,200H40V88H184Zm32-32H200V88a16,16,0,0,0-16-16H72V56H216Z"></path></svg>5
+          </span>
+        </button>
       </div>
       <div class="pub-body">
         <p class="pub-venue">Sep 2019</p>
@@ -79,3 +114,5 @@ permalink: /projects/
     </article>
   </div>
 </section>
+
+<script src="/assets/js/gallery.js?v={{ site.time | date: '%s' }}"></script>
