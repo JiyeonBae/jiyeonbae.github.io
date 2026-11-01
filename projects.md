@@ -19,7 +19,7 @@ permalink: /projects/
     </article>
     <article class="pub">
       <div class="pub-thumb">
-        <button type="button" class="gallery-open" data-gallery="/project/youtrap-1.jpg /project/youtrap-2.jpg /project/youtrap-3.jpg" aria-label="View 3 screenshots of YouTrap">
+        <button type="button" class="gallery-open" data-gallery="/project/youtrap-3.jpg /project/youtrap-1.jpg /project/youtrap-2.jpg" aria-label="View 3 screenshots of YouTrap">
           <img src="/project/youtrap.png" alt="">
           <span class="gallery-count" aria-hidden="true">
             <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor"><path d="M216,40H72A16,16,0,0,0,56,56V72H40A16,16,0,0,0,24,88V200a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V184h16a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM184,200H40V88H184Zm32-32H200V88a16,16,0,0,0-16-16H72V56H216Z"></path></svg>3
