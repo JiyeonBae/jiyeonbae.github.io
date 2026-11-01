@@ -6,7 +6,7 @@ title: Jiyeon Bae
   <section class="block">
     <h2 class="block-title">About</h2>
     <div class="hero-bio">
-      <p>Hi 👋&nbsp; I'm Jiyeon Bae, an M.S. student in Artificial Intelligence at <a href="https://www.snu.ac.kr/">Seoul National University</a>, advised by Prof. <a href="https://hcil.snu.ac.kr/people/jinwook-seo">Jinwook Seo</a> in the <a href="https://hcil.snu.ac.kr/">Human-Computer Interaction Lab</a>. I'm currently a Visiting Researcher in the <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at Harvard University, led by Prof. <a href="https://seas.harvard.edu/person/hanspeter-pfister">Hanspeter Pfister</a>.</p>
+      <p>Hi 👋&nbsp; I'm Jiyeon Bae, an M.S. student at <a href="https://www.snu.ac.kr/">Seoul National University</a>, advised by Prof. <a href="https://hcil.snu.ac.kr/people/jinwook-seo">Jinwook Seo</a> in the <a href="https://hcil.snu.ac.kr/">Human-Computer Interaction Lab</a>. I'm currently a Visiting Researcher in the <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at <a href="https://www.harvard.edu/">Harvard University</a>, led by Prof. <a href="https://seas.harvard.edu/person/hanspeter-pfister">Hanspeter Pfister</a>.</p>
       <p>My research in <strong>human&ndash;computer interaction (HCI)</strong> explores how interactive systems can help people make sense of information and experiences, reflect on what matters to them, and express their intentions to shape system behavior. Drawing on <strong>data visualization, human&ndash;AI interaction, extended reality (XR), and wearables</strong>, I design and evaluate interfaces and representations toward these goals. Increasingly, I focus on AI assistance that adapts to people&rsquo;s intentions and context, and on extending this support from digital interfaces into physical environments.</p>
     </div>
   </section>
@@ -138,7 +138,7 @@ title: Jiyeon Bae
       <div class="tl-item">
         <div class="tl-main">
           <p class="tl-title">Visiting Researcher</p>
-          <p class="tl-sub"><a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>, <span class="tl-org">Harvard University</span> &middot; Advisor: Prof. <a href="https://seas.harvard.edu/person/hanspeter-pfister">Hanspeter Pfister</a></p>
+          <p class="tl-sub"><a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>, <span class="tl-org"><a href="https://www.harvard.edu/">Harvard University</a></span> &middot; Advisor: Prof. <a href="https://seas.harvard.edu/person/hanspeter-pfister">Hanspeter Pfister</a></p>
         </div>
         <p class="tl-date">Aug 2026 &ndash; Present</p>
       </div>
