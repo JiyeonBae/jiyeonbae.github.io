@@ -177,6 +177,7 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
 }
 .news-text { margin: 0; font-size: .875rem; color: var(--ink-700); }
 .news-text .b { font-weight: 600; color: var(--ink-900); }
+.news-emoji { height: 1.15em; width: auto; vertical-align: -0.2em; }
 
 /* ===== Timeline list (Education, Experience, Projects, Talks, Awards) ===== */
 .tl { display: flex; flex-direction: column; gap: 1.1rem; }
