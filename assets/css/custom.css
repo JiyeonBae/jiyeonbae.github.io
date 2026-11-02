@@ -166,7 +166,7 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
   stroke-linejoin: round;
   overflow: visible;
 }
-.flow-title { margin: 0 0 .2rem; font-size: 1.05rem; font-weight: 700; color: var(--ink-900); }
+.flow-title { margin: 0 0 .1rem; font-size: 1.05rem; font-weight: 700; line-height: 1.35; color: var(--ink-900); }
 .flow-desc { margin: 0; font-size: .85rem; line-height: 1.45; color: var(--ink-500); }
 .flow-arrow { align-self: start; margin-top: 1.25rem; width: 2.5rem; }
 .flow-arrow svg { display: block; width: 100%; fill: none; stroke: #9db7da; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
