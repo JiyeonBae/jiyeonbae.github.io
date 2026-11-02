@@ -1,0 +1,45 @@
+---
+layout: default
+title: "RoleCast | Jiyeon Bae"
+permalink: /projects/rolecast/
+---
+
+<article class="project-detail">
+  <a class="back-link" href="/projects/">&larr; Projects</a>
+
+  <h1 class="pd-title">RoleCast: Role-Aware Multi-Agent Feedback for Broadcast Planning</h1>
+  <p class="pd-meta">Human&ndash;AI Interaction &middot; Multi-Agent Systems &middot; Apr &ndash; Jun 2026</p>
+
+  <div class="pd-gallery">
+    <button type="button" class="gallery-open" data-gallery="/project/rolecast-2.jpg /project/rolecast-3.jpg" data-start="0" aria-label="View RoleCast screenshot 1 of 2">
+      <img src="/project/rolecast-2.jpg" alt="">
+    </button>
+    <button type="button" class="gallery-open" data-gallery="/project/rolecast-2.jpg /project/rolecast-3.jpg" data-start="1" aria-label="View RoleCast screenshot 2 of 2">
+      <img src="/project/rolecast-3.jpg" alt="">
+    </button>
+  </div>
+
+  <h2 class="pd-heading">Overview</h2>
+  <p>RoleCast is a multi-agent system designed to provide early-stage feedback on broadcast production proposals. Grounded in real-world production data, it brings together AI agents representing different professional roles to offer specialized critiques, mediate conflicting perspectives, and generate actionable feedback before actual production meetings.</p>
+
+  <h2 class="pd-heading">Key Features</h2>
+  <ul>
+    <li><strong>Role-Aware Feedback:</strong> Four specialized agents representing producers, writers, editors, and AI/CG specialists evaluate proposals from distinct professional perspectives.</li>
+    <li><strong>Grounded Multi-Agent Discussion:</strong> Agents use role-specific checklists derived from real production meetings to support evidence-based critiques and iterative conflict mediation.</li>
+    <li><strong>Interactive Meeting Minutes:</strong> Generates structured summaries of key issues, decisions, unresolved conflicts, and revision suggestions, with support for follow-up questions.</li>
+  </ul>
+
+  <h2 class="pd-heading">Evaluation &amp; Findings</h2>
+  <p>We evaluated RoleCast against three baselines and two ablated variants across five broadcast proposals, followed by a user study with five industry professionals.</p>
+  <ul>
+    <li><strong>Automated Evaluation:</strong> RoleCast outperformed baselines on several metrics, including role specificity, actionability, and conflict resolution.</li>
+    <li><strong>Expert Evaluation:</strong> Industry professionals rated a knowledge-grounded single-LLM baseline higher on most dimensions, although RoleCast showed advantages in decision-related feedback and grounding.</li>
+    <li><strong>Key Insight:</strong> Stronger automated evaluation results did not necessarily translate into greater perceived usefulness, highlighting the importance of aligning AI-generated feedback with professional workflows and expectations.</li>
+  </ul>
+  <p>These findings suggest opportunities to design multi-agent systems that balance diverse perspectives with practical decision-making needs.</p>
+
+  <h2 class="pd-heading">My Contributions</h2>
+  <p>As part of a four-person team, I contributed to the system&rsquo;s development and conducted user study sessions with broadcast industry professionals alongside my teammates.</p>
+</article>
+
+<script src="/assets/js/gallery.js?v={{ site.time | date: '%s' }}"></script>

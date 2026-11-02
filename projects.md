@@ -9,14 +9,18 @@ permalink: /projects/
   <div class="pubs">
     <article class="pub">
       <div class="pub-thumb">
-        <button type="button" class="gallery-open" data-gallery="/project/rolecast-full.jpg" aria-label="View image of RoleCast">
+        <button type="button" class="gallery-open" data-gallery="/project/rolecast-2.jpg /project/rolecast-3.jpg" aria-label="View 2 screenshots of RoleCast">
           <img src="/project/rolecast.png" alt="">
+          <span class="gallery-count" aria-hidden="true">
+            <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor"><path d="M216,40H72A16,16,0,0,0,56,56V72H40A16,16,0,0,0,24,88V200a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V184h16a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM184,200H40V88H184Zm32-32H200V88a16,16,0,0,0-16-16H72V56H216Z"></path></svg>2
+          </span>
         </button>
       </div>
       <div class="pub-body">
         <p class="pub-venue">Apr &ndash; Jun 2026</p>
-        <h3 class="poster-title">RoleCast: Multi-Agent Feedback for Broadcast Planning</h3>
+        <h3 class="poster-title"><a class="title-link" href="/projects/rolecast/">RoleCast: Multi-Agent Feedback for Broadcast Planning</a></h3>
         <p class="pub-authors">Built a multi-agent system for checklist-based critique and conflict mediation across broadcast production roles, grounded in <a href="https://www.imbc.com/">MBC</a> data via dense/BM25 retrieval and evaluated with five experts.</p>
+        <a class="view-project" href="/projects/rolecast/">View Project <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg></a>
       </div>
     </article>
     <article class="pub">
@@ -30,8 +34,9 @@ permalink: /projects/
       </div>
       <div class="pub-body">
         <p class="pub-venue">Oct &ndash; Dec 2025</p>
-        <h3 class="poster-title">YouTrap: You&rsquo;re Trapped in the YouTube Filter Bubble<span class="pub-links title-links"><a href="/youtrap.pdf" target="_blank" rel="noopener noreferrer">Poster</a></span></h3>
+        <h3 class="poster-title"><a class="title-link" href="/projects/youtrap/">YouTrap: You&rsquo;re Trapped in the YouTube Filter Bubble</a><span class="pub-links title-links"><a href="/youtrap.pdf" target="_blank" rel="noopener noreferrer">Poster</a></span></h3>
         <p class="pub-authors">Designed a topic visualization Chrome extension that raises awareness of filter bubbles in YouTube recommendations, built with React, TypeScript, and D3 and evaluated in a 12-participant study.</p>
+        <a class="view-project" href="/projects/youtrap/">View Project <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg></a>
       </div>
     </article>
     <article class="pub">
@@ -45,20 +50,38 @@ permalink: /projects/
       </div>
       <div class="pub-body">
         <p class="pub-venue">May &ndash; Jul 2022</p>
-        <h3 class="poster-title">Sisyphus: Interactive Media Installation</h3>
-        <p class="pub-authors">Created Maya animations exploring repetitive daily routines, projection-mapped onto a motorized wheel in a Kinect/Unity installation that responds to viewer position; shown to 200+ visitors.</p>
+        <h3 class="poster-title"><a class="title-link" href="/projects/sisyphus/">Sisyphus: Interactive Media Installation</a></h3>
+        <p class="pub-authors">Created Maya animations exploring repetitive daily routines, projection-mapped onto a motorized wheel in a Kinect/Unity installation that responds to viewer position. Shown to 200+ visitors.</p>
+        <a class="view-project" href="/projects/sisyphus/">View Project <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg></a>
       </div>
     </article>
     <article class="pub">
       <div class="pub-thumb">
-        <button type="button" class="gallery-open" data-gallery="/project/dot.png" aria-label="View image of Dot.">
+        <button type="button" class="gallery-open" data-gallery="/project/cherry-1.jpg /project/cherry-2.jpg" aria-label="View 2 images of CHERRY &times; Yanolja">
+          <img src="/project/cherry.png" alt="">
+          <span class="gallery-count" aria-hidden="true">
+            <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor"><path d="M216,40H72A16,16,0,0,0,56,56V72H40A16,16,0,0,0,24,88V200a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V184h16a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM184,200H40V88H184Zm32-32H200V88a16,16,0,0,0-16-16H72V56H216Z"></path></svg>2
+          </span>
+        </button>
+      </div>
+      <div class="pub-body">
+        <p class="pub-venue">Mar &ndash; Jun 2022</p>
+        <h3 class="poster-title"><a class="title-link" href="/projects/cherry-yanolja/">CHERRY &times; Yanolja: Designing Accessible Donation Experiences</a></h3>
+        <p class="pub-authors">Led a four-person team proposing donation experiences that connect the <a href="https://www.cherrycorp.io/en" target="_blank" rel="noopener noreferrer">CHERRY</a> platform with <a href="https://www.yanoljagroup.com/about" target="_blank" rel="noopener noreferrer">Yanolja</a>, informed by a 40-participant survey. Won first place in an industry&ndash;academia evaluation.</p>
+        <a class="view-project" href="/projects/cherry-yanolja/">View Project <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg></a>
+      </div>
+    </article>
+    <article class="pub">
+      <div class="pub-thumb">
+        <button type="button" class="gallery-open" data-gallery="/project/dot-app.jpg" aria-label="View image of Dot.">
           <img src="/project/dot.png" alt="">
         </button>
       </div>
       <div class="pub-body">
         <p class="pub-venue">Mar &ndash; May 2022</p>
-        <h3 class="poster-title">Dot.: Time Management Application</h3>
+        <h3 class="poster-title"><a class="title-link" href="/projects/dot/">Dot.: Time Management Application</a></h3>
         <p class="pub-authors">Designed activity start/end controls to reduce logging effort, and implemented real-time logging and calendar review in React Native.</p>
+        <a class="view-project" href="/projects/dot/">View Project <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg></a>
       </div>
     </article>
     <article class="pub">
@@ -73,7 +96,7 @@ permalink: /projects/
       <div class="pub-body">
         <p class="pub-venue">Oct &ndash; Dec 2019</p>
         <h3 class="poster-title">Motion Stimulus Camera</h3>
-        <p class="pub-authors">Built a Raspberry Pi camera with physical controls, an LCD, and a film-grain effect in a custom 3D-printed enclosure; ranked first in course project evaluations.</p>
+        <p class="pub-authors">Built a Raspberry Pi camera with physical controls, an LCD, and a film-grain effect in a custom 3D-printed enclosure. Ranked first in course project evaluations.</p>
       </div>
     </article>
     <article class="pub">
@@ -117,8 +140,8 @@ permalink: /projects/
       </div>
       <div class="pub-body">
         <p class="pub-venue">Sep 2019</p>
-        <h3 class="poster-title">Photogrammetric Reconstruction and 3D Asset Preparation<span class="pub-links title-links"><a href="https://skfb.ly/opovG" target="_blank" rel="noopener noreferrer">Sketchfab</a></span></h3>
-        <p class="pub-authors">Created textured 3D models of real-world objects through photogrammetry, retopology, and texture transfer, and published the models on Sketchfab.</p>
+        <h3 class="poster-title">Photogrammetric Reconstruction and 3D Asset Preparation</h3>
+        <p class="pub-authors">Created textured 3D models of real-world objects through photogrammetry, retopology, and texture transfer, and published the models on <a href="https://skfb.ly/opovG" target="_blank" rel="noopener noreferrer">Sketchfab</a>.</p>
       </div>
     </article>
   </div>

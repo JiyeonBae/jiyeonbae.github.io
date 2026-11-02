@@ -1,5 +1,6 @@
 // Lightbox for project thumbnails: a .gallery-open button lists items in
 // data-gallery (space-separated): image URLs, or "youtube:<id>" for a video.
+// An optional data-start (0-based) picks the first item shown.
 // Arrows/dots/swipe/keys step through; Esc, the close button, or a click on
 // the backdrop closes it.
 (function () {
@@ -52,7 +53,7 @@
     });
   }
 
-  function open(list, from) {
+  function open(list, from, start) {
     images = list;
     lastFocus = from;
     dots.innerHTML = '';
@@ -68,7 +69,7 @@
     box.querySelector('.lb-next').hidden = single;
     dots.hidden = single;
     count.hidden = single;
-    show(0);
+    show(start || 0);
     box.hidden = false;
     document.body.style.overflow = 'hidden';
     box.querySelector('.lb-close').focus();
@@ -84,7 +85,7 @@
 
   openers.forEach(function (b) {
     b.addEventListener('click', function () {
-      open(b.dataset.gallery.trim().split(/\s+/), b);
+      open(b.dataset.gallery.trim().split(/\s+/), b, parseInt(b.dataset.start, 10) || 0);
     });
   });
   box.querySelector('.lb-close').addEventListener('click', close);
