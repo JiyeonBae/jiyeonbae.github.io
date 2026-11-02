@@ -67,6 +67,7 @@
     box.querySelector('.lb-prev').hidden = single;
     box.querySelector('.lb-next').hidden = single;
     dots.hidden = single;
+    count.hidden = single;
     show(0);
     box.hidden = false;
     document.body.style.overflow = 'hidden';

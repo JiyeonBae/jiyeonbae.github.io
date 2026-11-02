@@ -9,7 +9,9 @@ permalink: /projects/
   <div class="pubs">
     <article class="pub">
       <div class="pub-thumb">
-        <img src="/project/rolecast.png" alt="" onerror="this.style.display='none'">
+        <button type="button" class="gallery-open" data-gallery="/project/rolecast-full.jpg" aria-label="View image of RoleCast">
+          <img src="/project/rolecast.png" alt="">
+        </button>
       </div>
       <div class="pub-body">
         <p class="pub-venue">Apr &ndash; Jun 2026</p>
@@ -49,7 +51,9 @@ permalink: /projects/
     </article>
     <article class="pub">
       <div class="pub-thumb">
-        <img src="/project/dot.png" alt="" onerror="this.style.display='none'">
+        <button type="button" class="gallery-open" data-gallery="/project/dot.png" aria-label="View image of Dot.">
+          <img src="/project/dot.png" alt="">
+        </button>
       </div>
       <div class="pub-body">
         <p class="pub-venue">Mar &ndash; May 2022</p>
@@ -74,7 +78,12 @@ permalink: /projects/
     </article>
     <article class="pub">
       <div class="pub-thumb">
-        <img src="/project/ar-avatar.png" alt="" onerror="this.style.display='none'">
+        <button type="button" class="gallery-open" data-gallery="/project/ar-avatar-full.jpg /project/ar-avatar-2.jpg" aria-label="View 2 images of the AR avatar">
+          <img src="/project/ar-avatar.png" alt="">
+          <span class="gallery-count" aria-hidden="true">
+            <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor"><path d="M216,40H72A16,16,0,0,0,56,56V72H40A16,16,0,0,0,24,88V200a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V184h16a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM184,200H40V88H184Zm32-32H200V88a16,16,0,0,0-16-16H72V56H216Z"></path></svg>2
+          </span>
+        </button>
       </div>
       <div class="pub-body">
         <p class="pub-venue">Oct 2019</p>

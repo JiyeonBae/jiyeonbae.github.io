@@ -398,7 +398,7 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
   justify-content: center;
   background: rgba(15, 23, 42, .88);
 }
-.lightbox[hidden], .lb-btn[hidden], .lb-dots[hidden] { display: none; }
+.lightbox[hidden], .lb-btn[hidden], .lb-dots[hidden], .lb-count[hidden] { display: none; }
 .lb-figure { margin: 0; text-align: center; }
 .lb-figure img {
   display: block;
