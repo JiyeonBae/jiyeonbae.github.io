@@ -9,6 +9,36 @@ title: Jiyeon Bae
       <p>Hi 👋&nbsp; I'm Jiyeon Bae, an M.S. student at <a href="https://www.snu.ac.kr/">Seoul National University</a>, advised by Prof. <a href="https://hcil.snu.ac.kr/people/jinwook-seo">Jinwook Seo</a> in the <a href="https://hcil.snu.ac.kr/">Human-Computer Interaction Lab</a>. I'm currently a Visiting Researcher in Prof. <a href="https://seas.harvard.edu/person/hanspeter-pfister">Hanspeter Pfister</a>&rsquo;s <a href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at <a href="https://www.harvard.edu/">Harvard University</a>.</p>
       <p>My research in <strong>human&ndash;computer interaction (HCI)</strong> explores how interactive systems can help people make sense of complex information, their own experiences, and AI behavior, and act on that understanding. Drawing on <strong>data visualization</strong> and <strong>human&ndash;AI interaction</strong>, I design and evaluate systems that support sensemaking and user agency by revealing patterns people might otherwise miss, enabling reflection, and helping people shape system behavior. This work spans settings from recommendation feeds and personal collections to shared physical workspaces. Increasingly, I am interested in how <strong>XR</strong> and <strong>wearables</strong> can extend this support into everyday life through AI assistance that adapts to people&rsquo;s context and intentions.</p>
     </div>
+
+    <div class="flow" aria-label="Research approach: reveal, understand, shape">
+      <div class="flow-step">
+        <div class="flow-icon flow-icon--reveal" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#2563b8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle class="flow-pupil" cx="12" cy="12" r="3"/></svg>
+        </div>
+        <p class="flow-title">Reveal</p>
+        <p class="flow-desc">Make hidden patterns visible</p>
+      </div>
+      <div class="flow-arrow" aria-hidden="true">
+        <svg viewBox="0 0 48 12" width="40" height="10" fill="none" stroke="#9db7da" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path class="flow-line" d="M2 6h40"/><path d="M38 2l5 4-5 4"/></svg>
+      </div>
+      <div class="flow-step">
+        <div class="flow-icon flow-icon--understand" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#2563b8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6M10 22h4"/><g class="flow-rays"><path d="M12 .5v.01M3.5 4l.01.01M20.5 4l-.01.01M1 10h.01M23 10h-.01"/></g></svg>
+        </div>
+        <p class="flow-title">Understand</p>
+        <p class="flow-desc">Support sensemaking and reflection</p>
+      </div>
+      <div class="flow-arrow" aria-hidden="true">
+        <svg viewBox="0 0 48 12" width="40" height="10" fill="none" stroke="#9db7da" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path class="flow-line" d="M2 6h40"/><path d="M38 2l5 4-5 4"/></svg>
+      </div>
+      <div class="flow-step">
+        <div class="flow-icon flow-icon--shape" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#2563b8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="flow-track" d="M3 6h18M3 12h18M3 18h18"/><circle class="flow-knob flow-knob--1" cx="15" cy="6" r="2.2"/><circle class="flow-knob flow-knob--2" cx="8" cy="12" r="2.2"/><circle class="flow-knob flow-knob--3" cx="17" cy="18" r="2.2"/></svg>
+        </div>
+        <p class="flow-title">Shape</p>
+        <p class="flow-desc">Enable agency and adaptive assistance</p>
+      </div>
+    </div>
   </section>
 
   <section class="block">
@@ -186,3 +216,5 @@ title: Jiyeon Bae
     </div>
   </section>
 
+
+<script src="/assets/js/flow.js?v={{ site.time | date: '%s' }}"></script>
