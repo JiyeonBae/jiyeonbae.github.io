@@ -60,7 +60,7 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
   align-items: center;
   justify-content: flex-end;
 }
-.nav-links { display: flex; gap: 1.5rem; font-size: .875rem; }
+.nav-links { display: flex; gap: 1.5rem; font-size: .95rem; }
 .nav-links a { color: var(--ink-500); }
 .nav-links a:hover { color: var(--ink-900); text-decoration: none; }
 .nav-links a.is-active { color: var(--ink-900); font-weight: 600; }
