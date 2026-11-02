@@ -7,6 +7,8 @@ permalink: /publications/
 <section class="block" id="publications">
   <h2 class="block-title">Publications</h2>
   <div class="pub-filter" role="group" aria-label="Filter by topic">
+    <span class="pub-filter-label" aria-hidden="true">Filter:</span>
+    <button type="button" class="pub-filter-all" data-filter="all" aria-pressed="true">All</button>
     <button type="button" class="t-vis" data-filter="vis" aria-pressed="true">Visualization</button>
     <button type="button" class="t-hai" data-filter="hai" aria-pressed="true">Human&ndash;AI Interaction</button>
     <button type="button" class="t-xr" data-filter="xr" aria-pressed="true">XR &amp; Wearables</button>

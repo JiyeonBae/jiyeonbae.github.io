@@ -1,8 +1,10 @@
 // Toggle topic buttons to filter publications/posters. All topics start on;
-// an item is shown when at least one of its topics is on.
+// an item is shown when at least one of its topics is on. The "All" button
+// reads as pressed while all topics are on and toggles every topic at once.
 (function () {
-  var buttons = document.querySelectorAll('.pub-filter button');
+  var buttons = document.querySelectorAll('.pub-filter button[data-filter]:not([data-filter="all"])');
   if (!buttons.length) return;
+  var allBtn = document.querySelector('.pub-filter button[data-filter="all"]');
   var items = document.querySelectorAll('.pub[data-tags]');
 
   function apply() {
@@ -10,6 +12,7 @@
     buttons.forEach(function (b) {
       if (b.getAttribute('aria-pressed') === 'true') active.push(b.dataset.filter);
     });
+    if (allBtn) allBtn.setAttribute('aria-pressed', active.length === buttons.length ? 'true' : 'false');
     items.forEach(function (item) {
       var tags = item.dataset.tags.split(' ');
       var show = active.some(function (t) { return tags.indexOf(t) !== -1; });
@@ -35,4 +38,12 @@
       apply();
     });
   });
+
+  if (allBtn) {
+    allBtn.addEventListener('click', function () {
+      var next = allBtn.getAttribute('aria-pressed') === 'true' ? 'false' : 'true';
+      buttons.forEach(function (b) { b.setAttribute('aria-pressed', next); });
+      apply();
+    });
+  }
 })();

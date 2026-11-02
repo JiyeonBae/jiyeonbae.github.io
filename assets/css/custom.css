@@ -230,7 +230,9 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
   border: 1px solid var(--tag-bd, var(--chip-bd));
   color: var(--tag-fg, var(--accent-dk));
 }
-.pub-filter { display: flex; flex-wrap: wrap; gap: .35rem; margin: 0 0 1.75rem; }
+.pub-filter { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; margin: 0 0 1.75rem; }
+.pub-filter-label { margin-right: .2rem; font-size: .75rem; color: var(--ink-400); }
+.pub-filter-all { --tag-bg: #f1f4f8; --tag-bd: #cfd6df; --tag-fg: var(--ink-700); }
 /* Same size as .pub-tag; off = neutral gray, on = matches the tag chip */
 .pub-filter button {
   padding: .1rem .55rem;
