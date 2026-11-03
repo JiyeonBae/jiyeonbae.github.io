@@ -75,6 +75,7 @@ permalink: /publications/
         <p class="pub-authors">Nahyuk Lee, Hannah Noh, <strong>Jiyeon Bae</strong>, Kyunghun Nam, Sanghyun Seo, and Kyunghyun Yoon</p>
         <p class="pub-cite">Korea Multimedia Society Summer Conference (KMMS), 2020</p>
         <div class="pub-tags"><span class="pub-tag t-cv">Computer Vision</span></div>
+        <a class="view-project" href="/publications/kmms-2020/">View Details <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg></a>
       </div>
     </article>
   </div>
@@ -94,8 +95,8 @@ permalink: /publications/
         <p class="pub-cite">IEEE Pacific Visualization Conference (PacificVis), 2026<span class="award"><img class="award-badge" src="/reward.png" alt="Award">Best Poster Award</span></p>
         <div class="pub-tags"><span class="pub-tag t-vis">Visualization</span><span class="pub-tag t-xr">XR &amp; Wearables</span></div>
         <div class="pub-links">
-          <a href="/poster-ar.pdf" target="_blank" rel="noopener noreferrer">Poster</a>
           <a href="https://arxiv.org/abs/2603.21637" target="_blank" rel="noopener noreferrer">arXiv</a>
+          <a href="/poster-ar.pdf" target="_blank" rel="noopener noreferrer">Poster</a>
         </div>
       </div>
     </article>
@@ -109,8 +110,8 @@ permalink: /publications/
         <p class="pub-cite">IEEE Pacific Visualization Conference (PacificVis), 2026</p>
         <div class="pub-tags"><span class="pub-tag t-vis">Visualization</span></div>
         <div class="pub-links">
-          <a href="/poster-music.pdf" target="_blank" rel="noopener noreferrer">Poster</a>
           <a href="https://arxiv.org/abs/2603.21624" target="_blank" rel="noopener noreferrer">arXiv</a>
+          <a href="/poster-music.pdf" target="_blank" rel="noopener noreferrer">Poster</a>
         </div>
       </div>
     </article>

@@ -1,0 +1,32 @@
+---
+layout: default
+title: "3D Reconstruction and Object Recognition | Jiyeon Bae"
+permalink: /publications/kmms-2020/
+---
+
+<article class="project-detail">
+  <a class="back-link" href="/publications/">&larr; Publications</a>
+
+  <h1 class="pd-title">Development of 3D Reconstruction and Object Recognition Model Based on Single Dataset</h1>
+  <p class="pd-meta">Computer Vision &middot; 3D Reconstruction &middot; 2020</p>
+  <p class="pd-meta">Proceedings of the Korea Multimedia Society Summer Conference (KMMS), 2020 &middot; In Korean</p>
+
+  <!-- columns sized by each image's width/height ratio so both share one height -->
+  <div class="pd-hero pd-hero--pair" style="grid-template-columns: 1.597fr 1.512fr;">
+    <img src="/project/dataset.png" alt="Data preparation pipeline: key frame extraction, auto labelling, and augmentation">
+    <img src="/project/kmms-result.jpg" alt="Object detection result and the 3D reconstructed model">
+  </div>
+
+  <h2 class="pd-heading">Overview</h2>
+  <p>This research explores a unified pipeline for 3D reconstruction and object recognition using a single image dataset. By reusing images captured for 3D reconstruction as training data for object detection, the approach aims to reduce the effort of preparing separate datasets.</p>
+
+  <h2 class="pd-heading">Approach</h2>
+  <ul>
+    <li><strong>Semi-Automated Annotation:</strong> Uses SURF feature matching to propagate bounding boxes across consecutive image frames.</li>
+    <li><strong>Annotation-Aware Data Augmentation:</strong> Applies color adjustments, background replacement, occlusion, and geometric transformations, updating bounding-box annotations when necessary.</li>
+    <li><strong>3D Reconstruction &amp; Object Recognition:</strong> Uses Meshroom for 3D reconstruction and Faster R-CNN for object detection.</li>
+  </ul>
+
+  <h2 class="pd-heading">My Contributions</h2>
+  <p>As an undergraduate researcher, I developed a semi-automated data preparation pipeline for object recognition, focusing on bounding-box propagation and annotation-aware data augmentation.</p>
+</article>

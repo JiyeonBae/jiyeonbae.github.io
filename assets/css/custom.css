@@ -606,6 +606,7 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
 .pd-gallery--stack .gallery-open { aspect-ratio: auto; }
 .pd-hero { margin: 1.5rem 0 2rem; }
 .pd-hero img { display: block; width: 100%; height: auto; }
+.pd-hero--pair { display: grid; gap: .75rem; align-items: center; }
 .pd-gallery--plain .gallery-open { border: 0; border-radius: 0; }
 .pd-gallery--stack .pd-narrow { justify-self: center; width: 70%; }
 /* Side by side at each image's own proportions, vertically centred */
