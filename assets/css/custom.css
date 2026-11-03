@@ -604,9 +604,18 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
 /* Stacked full images, for pictures that don't suit a 16:9 crop */
 .pd-gallery--stack { grid-template-columns: 1fr; gap: 1rem; }
 .pd-gallery--stack .gallery-open { aspect-ratio: auto; }
+.pd-hero { margin: 1.5rem 0 2rem; }
+.pd-hero img { display: block; width: 100%; height: auto; }
 .pd-gallery--plain .gallery-open { border: 0; border-radius: 0; }
+.pd-gallery--stack .pd-narrow { justify-self: center; width: 70%; }
+/* Side by side at each image's own proportions, vertically centred */
+.pd-gallery--natural { align-items: center; }
+.pd-gallery--natural .gallery-open { aspect-ratio: auto; }
+.pd-gallery.pd-gallery--natural img { height: auto; object-fit: contain; }
 .pd-gallery img { display: block; width: 100%; height: 100%; object-fit: cover; transition: opacity .2s; }
 .pd-gallery .gallery-open:hover img { opacity: .88; }
+.pd-meta + .pd-meta { margin-top: -.5rem; }
+.pd-focus { margin: 1rem 0; padding: .75rem 1rem; border-left: 3px solid var(--accent); background: var(--chip-bg); border-radius: 0 6px 6px 0; }
 .pd-heading { margin: 2rem 0 .6rem; font-size: 1.1rem; font-weight: 700; color: var(--ink-900); }
 .project-detail p { margin: 0 0 .8rem; }
 .project-detail ul { margin: 0 0 .8rem; padding-left: 1.2rem; }
