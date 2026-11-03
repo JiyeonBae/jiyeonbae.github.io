@@ -16,12 +16,19 @@ permalink: /publications/mymuse/
   </div>
 
   <h2 class="pd-heading">Overview</h2>
-  <p>Museum photographs preserve what visitors saw, but not necessarily why those artworks mattered to them. MyMuse is an interactive system that supports continued inquiry and reflection after museum visits by connecting artwork photographs with visitors&rsquo; personal questions, interpretations, and experiences.</p>
+  <p>MyMuse is an interactive system that supports continued inquiry and reflection after museum visits by connecting artwork photographs with visitors&rsquo; personal questions, interpretations, and experiences. It enables visitors to revisit individual artworks and explore recurring interests and relationships across their personal collections.</p>
+
+  <h2 class="pd-heading">Motivation</h2>
+  <ul>
+    <li><strong>Lost Personal Context:</strong> Artwork photographs preserve what visitors saw, but not necessarily why they captured a particular work or what it meant to them.</li>
+    <li><strong>Evolving Interpretations:</strong> New knowledge and subsequent encounters can prompt visitors to ask new questions and reconsider their earlier interpretations.</li>
+    <li><strong>Hidden Connections Across Artworks:</strong> Recurring interests may be reflected in visitors&rsquo; questions and interpretations, yet these connections can remain difficult to recognize across separate artwork records.</li>
+  </ul>
   <p class="pd-focus"><strong>Research Focus:</strong> How can interactive systems support continued inquiry around individual artworks while helping visitors recognize recurring interests and connections across their personal records?</p>
 
   <h2 class="pd-heading">Formative Study</h2>
   <p>We conducted semi-structured and photo-elicitation interviews with <strong>10 museum visitors</strong>, using <strong>100 photographs from their own visits</strong> to understand how they recalled, revisited, and reinterpreted artworks.</p>
-  <p>The study revealed that photographs often failed to preserve why an artwork mattered, while new knowledge and accumulated collections could prompt reinterpretation and reflection. These findings informed four design goals.</p>
+  <p>The study revealed difficulties in recovering the reasons behind photographs, opportunities for reinterpretation through new knowledge, and the importance of considering visitors&rsquo; own questions and reflections when examining patterns across collections. These findings informed four design goals.</p>
 
   <h2 class="pd-heading">Design Goals</h2>
   <ul>
@@ -31,11 +38,11 @@ permalink: /publications/mymuse/
     <li><strong>Connect Individual and Collection-Level Exploration:</strong> Enable movement between inquiry about individual artworks and reflection across the collection.</li>
   </ul>
 
-  <h2 class="pd-heading">Key Features</h2>
+  <h2 class="pd-heading">System Design</h2>
   <ul>
-    <li><strong>Personal Museum:</strong> Organizes photographed artworks in a virtual gallery where visitors can revisit works, ask questions, record reflections, and explore related artworks.</li>
-    <li><strong>Context-Aware Inquiry:</strong> Uses accumulated personal records alongside artwork information to provide grounded responses informed by visitors&rsquo; earlier questions and interpretations.</li>
-    <li><strong>Interactive Narrative Report:</strong> Applies narrative visualization principles to organize visitor-authored records across artworks, guiding reflection through four interpretive lenses&mdash;subject, physical characteristics, style and chronology, and creator&mdash;before enabling open-ended exploration of recurring interests and connections.</li>
+    <li><strong>Personal Museum &mdash; Artwork-Level Inquiry:</strong> Presents photographed artworks in a virtual gallery where visitors can revisit individual works, ask questions, record personal reflections, and explore related artworks.</li>
+    <li><strong>Personal Records &amp; Context-Aware Inquiry:</strong> Preserves visitors&rsquo; questions and interpretations separately from system-generated content. Using artwork metadata and relevant prior records, MyMuse provides grounded responses that build on earlier inquiries.</li>
+    <li><strong>Interactive Narrative Report &mdash; Collection-Level Reflection:</strong> Applies narrative visualization principles to organize accumulated personal records through four interpretive lenses&mdash;subject, physical characteristics, style and chronology, and creator. Guided storytelling transitions into interactive exploration, allowing visitors to examine recurring interests and connections alongside their supporting records.</li>
   </ul>
 
   <div class="pd-gallery pd-gallery--natural pd-gallery--plain" style="grid-template-columns: 2.737fr 1.317fr;">
@@ -47,7 +54,14 @@ permalink: /publications/mymuse/
     </button>
   </div>
 
-  <h2 class="pd-heading">Evaluation &amp; Findings</h2>
+  <h2 class="pd-heading">Technical Approach</h2>
+  <ul>
+    <li><strong>Grounded Artwork Inquiry:</strong> Combines verified artwork metadata, external knowledge sources, and relevant personal records to generate context-aware responses through retrieval-augmented generation (RAG).</li>
+    <li><strong>Personal Meaning Graph:</strong> Annotates visitor-authored records using CCO artwork aspects and MyMuEx experiential triggers, enabling retrieval of related questions and reflections across artworks.</li>
+    <li><strong>Evidence-Grounded Narrative Generation:</strong> Uses deterministic planning to organize accumulated records into narrative structures, with LLM-based phrasing and verification to limit unsupported interpretations.</li>
+  </ul>
+
+  <h2 class="pd-heading">User Study &amp; Results</h2>
   <p>We conducted two within-subject studies with <strong>16 participants</strong> using their own artwork photographs.</p>
   <ul>
     <li><strong>Vivid Revisitation:</strong> 13 of 16 participants favored MyMuse over a conventional per-artwork interface for vividly revisiting their museum experiences in direct comparisons.</li>

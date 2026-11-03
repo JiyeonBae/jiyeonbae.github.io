@@ -18,13 +18,16 @@ permalink: /publications/kmms-2020/
   </div>
 
   <h2 class="pd-heading">Overview</h2>
-  <p>This research explores a unified pipeline for 3D reconstruction and object recognition using a single image dataset. By reusing images captured for 3D reconstruction as training data for object detection, the approach aims to reduce the effort of preparing separate datasets.</p>
+  <p>This research presents a unified pipeline for 3D reconstruction and object recognition using a single image dataset. By reusing images captured for 3D reconstruction as training data for object detection, the approach aims to reduce the time and effort required to prepare separate datasets.</p>
 
-  <h2 class="pd-heading">Approach</h2>
+  <h2 class="pd-heading">Motivation</h2>
+  <p>3D reconstruction and object recognition typically require different data preparation processes, increasing the effort involved in image collection and annotation. Moreover, images collected for reconstruction may require additional labeling and augmentation to support robust object recognition under varying conditions.</p>
+
+  <h2 class="pd-heading">Technical Approach</h2>
   <ul>
-    <li><strong>Semi-Automated Annotation:</strong> Uses SURF feature matching to propagate bounding boxes across consecutive image frames.</li>
+    <li><strong>Semi-Automated Annotation:</strong> Uses SURF feature matching to propagate object bounding boxes across consecutive image frames.</li>
     <li><strong>Annotation-Aware Data Augmentation:</strong> Applies color adjustments, background replacement, occlusion, and geometric transformations, updating bounding-box annotations when necessary.</li>
-    <li><strong>3D Reconstruction &amp; Object Recognition:</strong> Uses Meshroom for 3D reconstruction and Faster R-CNN for object detection.</li>
+    <li><strong>Unified Reconstruction &amp; Recognition:</strong> Uses Meshroom for 3D reconstruction and Faster R-CNN for object detection, leveraging a shared image dataset.</li>
   </ul>
 
   <h2 class="pd-heading">My Contributions</h2>
