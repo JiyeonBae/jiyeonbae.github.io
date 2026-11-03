@@ -1,0 +1,53 @@
+---
+layout: default
+title: "Beyond the Feed | Jiyeon Bae"
+permalink: /publications/beyond-the-feed/
+---
+
+<article class="project-detail">
+  <a class="back-link" href="/publications/">&larr; Publications</a>
+
+  <h1 class="pd-title">Beyond the Feed: Trajectory-Level Interaction for Understanding and Steering Recommendations Under Short-Term Sensitivity</h1>
+  <p class="pd-meta">Human&ndash;AI Interaction &middot; Interactive Visualization &middot; Recommender Systems &middot; 2026</p>
+  <p class="pd-meta">Under Review at ACM CHI 2027</p>
+
+  <div class="pd-hero">
+    <img src="/project/steerrec-teaser.jpg" alt="SteerRec Observe–Interpret–Steer framework: trajectory visualization, LLM-based diagnostic cues, and goal-based output steering">
+  </div>
+
+  <h2 class="pd-heading">Overview</h2>
+  <p>Recommendation systems can rapidly shift toward particular content topics in response to brief or incidental interactions, yet conventional feeds offer little visibility into how these changes unfold over time.</p>
+  <p>Beyond the Feed introduces <strong>trajectory-level interaction</strong>, an approach that helps users observe, interpret, and steer evolving recommendation distributions rather than relying solely on item-level feedback. We demonstrate this approach through SteerRec, an interactive research prototype.</p>
+  <p class="pd-focus"><strong>Research Focus:</strong> How can users understand changes in their recommendation trajectories and deliberately steer recommendations toward their intentions?</p>
+
+  <h2 class="pd-heading">Empirical Motivation</h2>
+  <p>We conducted a controlled audit of YouTube and Instagram across <strong>24 runs</strong> and a formative survey with <strong>22 participants</strong> to investigate short-term sensitivity in recommendation systems.</p>
+  <p>The audit revealed substantial recommendation shifts following brief interactions, while 72.7% of survey participants reported experiencing recommendation drift. These findings highlighted a gap between users&rsquo; awareness of recommendation changes and their ability to understand or control them.</p>
+
+  <h2 class="pd-heading">Interaction Framework</h2>
+  <p>We propose an <strong>Observe&ndash;Interpret&ndash;Steer</strong> framework that treats evolving recommendation distributions as objects users can inspect and influence.</p>
+  <ul>
+    <li><strong>Observe:</strong> Make changes in recommendation distributions visible over time.</li>
+    <li><strong>Interpret:</strong> Support users in understanding potential relationships between their interactions and recommendation shifts.</li>
+    <li><strong>Steer:</strong> Enable users to express desired recommendation outcomes and iteratively refine them through feedback.</li>
+  </ul>
+
+  <h2 class="pd-heading">Key Features</h2>
+  <ul>
+    <li><strong>Trajectory Visualization:</strong> Three coordinated views display content distributions, genre trends, and interaction history, helping users track recommendation changes over time.</li>
+    <li><strong>LLM-Based Diagnostic Cues:</strong> Highlight potential recommendation drift and relate distributional shifts to prior interactions, supporting users&rsquo; own interpretations.</li>
+    <li><strong>Goal-Based Steering:</strong> Allows users to specify desired genre proportions and immediately inspect the resulting recommendation distribution, without modifying the underlying recommender model.</li>
+  </ul>
+
+  <h2 class="pd-heading">Evaluation &amp; Findings</h2>
+  <p>We conducted a counterbalanced within-subjects study with <strong>20 participants</strong>, comparing SteerRec against a conventional feed-only interface.</p>
+  <ul>
+    <li><strong>Recommendation Awareness:</strong> Participants reported significantly greater awareness of recommendation changes with SteerRec (<em>M</em> = 5.10 vs. 4.15; Holm-adjusted <em>p</em> = .015).</li>
+    <li><strong>Perceived Agency:</strong> SteerRec significantly improved participants&rsquo; perceived ability to control recommendations (<em>M</em> = 5.30 vs. 3.30; Holm-adjusted <em>p</em> = .001).</li>
+    <li><strong>Interaction Trade-offs:</strong> Participants valued explicit steering but also identified challenges involving interface complexity and learnability.</li>
+  </ul>
+  <p>These findings suggest that making recommendation trajectories visible and revisable can support user understanding and agency, while highlighting the importance of balancing transparency with everyday usability.</p>
+
+  <h2 class="pd-heading">My Contributions</h2>
+  <p>I contributed to the concept of enabling users to directly steer recommendation outputs, designed SteerRec&rsquo;s interactive visualizations, and conducted user-study sessions.</p>
+</article>

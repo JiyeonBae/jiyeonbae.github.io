@@ -47,6 +47,7 @@ permalink: /publications/
         <p class="pub-authors">Sean Kim, Namhee Kim, <strong>Jiyeon Bae</strong>, Min Hyeong Kim, and Jinwook Seo</p>
         <p class="pub-cite">Under review at ACM CHI Conference on Human Factors in Computing Systems (CHI), 2027</p>
         <div class="pub-tags"><span class="pub-tag t-vis">Visualization</span><span class="pub-tag t-hai">Human&ndash;AI Interaction</span></div>
+        <a class="view-project" href="/publications/beyond-the-feed/">View Details <svg viewBox="0 0 256 256" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg></a>
       </div>
     </article>
     <article class="pub" data-tags="vis">
