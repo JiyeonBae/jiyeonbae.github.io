@@ -34,7 +34,7 @@ permalink: /publications/
       <div class="pub-body">
         <h3 class="pub-title">EgoMate: Egocentric Human-Robot Collaboration for Spoken Requests in Changing Shared Workspaces</h3>
         <p class="pub-authors">Chunggi Lee*, Florian Zogaj*, <strong>Jiyeon Bae</strong>, Jinwook Seo, and Hanspeter Pfister</p>
-        <p class="pub-cite">Under review &middot; * Equal contribution</p>
+        <p class="pub-cite">Under review at Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) &middot; * Equal contribution</p>
         <div class="pub-tags"><span class="pub-tag t-hai">Human&ndash;AI Interaction</span><span class="pub-tag t-xr">XR &amp; Wearables</span></div>
       </div>
     </article>
