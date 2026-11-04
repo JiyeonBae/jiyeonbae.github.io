@@ -1,4 +1,4 @@
-// Nav tree: grows once per browser session; clicking it shakes the crown and
+// Nav tree: grows each time Home loads; clicking it shakes the crown and
 // drops a few leaves that drift down and fade out.
 (function () {
   var btn = document.querySelector('.tree-btn');
@@ -6,11 +6,9 @@
   var tree = btn.querySelector('.tree');
   var crown = btn.querySelector('.tree-crown');
 
-  // Only play the growing animation on the first page of a visit.
-  try {
-    if (sessionStorage.getItem('treeGrown')) tree.classList.add('tree--grown');
-    else sessionStorage.setItem('treeGrown', '1');
-  } catch (e) {}
+  // Play the growing animation on Home only; other pages show it fully grown.
+  var path = location.pathname;
+  if (path !== '/' && path !== '/index.html') tree.classList.add('tree--grown');
 
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var colors = ['#7cc392', '#8fcf9f', '#a6dbb3'];

@@ -653,27 +653,27 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
   border-radius: 0 100% 0 100%;
   pointer-events: none;
 }
-.tree-ground { fill: #dbe8d4; transform-box: fill-box; transform-origin: center; animation: tree-pop .5s ease-out both; }
+.tree-ground { fill: #dbe8d4; transform-box: fill-box; transform-origin: center; animation: tree-pop .2s ease-out both; }
 .tree-grass path { fill: none; stroke: #86c495; stroke-width: 1.8; stroke-linecap: round; }
-.tree-grass { transform-box: fill-box; transform-origin: 50% 100%; transform: scaleY(0); animation: tree-grow-up .5s .2s ease-out forwards; }
+.tree-grass { transform-box: fill-box; transform-origin: 50% 100%; transform: scaleY(0); animation: tree-grow-up .2s .05s ease-out forwards; }
 @keyframes tree-grow-up { to { transform: scaleY(1); } }
 .tree-trunk, .tree-branch { fill: none; stroke: #9a7657; stroke-linecap: round; }
-.tree-trunk { stroke-width: 4.5; stroke-dasharray: 40; stroke-dashoffset: 40; animation: tree-draw .8s .3s ease-out forwards; }
-.tree-branch { stroke-width: 2.8; stroke-dasharray: 16; stroke-dashoffset: 16; animation: tree-draw .45s ease-out forwards; }
-.tb1 { animation-delay: .95s; }
-.tb2 { animation-delay: 1.05s; }
-.tree-crown { transform-box: view-box; transform-origin: 40px 86px; animation: tree-sway 5s 2.6s ease-in-out infinite; }
-.leaf, .fruit { transform-box: fill-box; transform-origin: center; transform: scale(0); animation: tree-pop .55s cubic-bezier(.34, 1.56, .64, 1) forwards; }
+.tree-trunk { stroke-width: 4.5; stroke-dasharray: 40; stroke-dashoffset: 40; animation: tree-draw .28s .1s ease-out forwards; }
+.tree-branch { stroke-width: 2.8; stroke-dasharray: 16; stroke-dashoffset: 16; animation: tree-draw .18s ease-out forwards; }
+.tb1 { animation-delay: .32s; }
+.tb2 { animation-delay: .36s; }
+.tree-crown { transform-box: view-box; transform-origin: 40px 86px; animation: tree-sway 5s 1s ease-in-out infinite; }
+.leaf, .fruit { transform-box: fill-box; transform-origin: center; transform: scale(0); animation: tree-pop .3s cubic-bezier(.34, 1.56, .64, 1) forwards; }
 .leaf { fill: #8fcf9f; }
-.l1 { fill: #7cc392; animation-delay: 1.2s; }
-.l2 { animation-delay: 1.35s; }
-.l3 { animation-delay: 1.45s; }
-.l4 { fill: #a6dbb3; animation-delay: 1.55s; }
-.l5 { fill: #a6dbb3; animation-delay: 1.65s; }
-.fruit { fill: #f4a6a6; animation-duration: .4s; }
-.f1 { animation-delay: 2.0s; }
-.f2 { animation-delay: 2.15s; }
-.f3 { animation-delay: 2.3s; }
+.l1 { fill: #7cc392; animation-delay: .42s; }
+.l2 { animation-delay: .47s; }
+.l3 { animation-delay: .52s; }
+.l4 { fill: #a6dbb3; animation-delay: .56s; }
+.l5 { fill: #a6dbb3; animation-delay: .6s; }
+.fruit { fill: #f4a6a6; animation-duration: .25s; }
+.f1 { animation-delay: .74s; }
+.f2 { animation-delay: .79s; }
+.f3 { animation-delay: .84s; }
 .tree:hover .tree-crown { animation-duration: 1.6s; }
 
 @keyframes tree-draw { to { stroke-dashoffset: 0; } }
