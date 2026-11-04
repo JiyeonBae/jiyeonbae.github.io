@@ -681,6 +681,14 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
 @keyframes tree-pop { from { transform: scale(0); } to { transform: scale(1); } }
 @keyframes tree-sway { 0%, 100% { transform: rotate(-1.5deg); } 50% { transform: rotate(1.5deg); } }
 
+/* two faint clouds drifting slowly around the tree */
+.cloud { position: absolute; fill: #fff; opacity: .9; pointer-events: none; }
+.cloud-1 { top: .5rem; left: calc(1.5rem + 70px); animation: cloud-drift 26s ease-in-out infinite alternate; }
+.cloud-2 { top: 1.15rem; left: calc(1.5rem + 137px); animation: cloud-drift 34s -8s ease-in-out infinite alternate-reverse; }
+@keyframes cloud-drift { from { transform: translateX(-4px); } to { transform: translateX(4px); } }
+@media (max-width: 820px) { .cloud { display: none; } }
+@media (prefers-reduced-motion: reduce) { .cloud { animation: none; } }
+
 /* stacked layout: keep it at the left so it never meets the nav links */
 @media (max-width: 820px) { .tree-btn { left: 1.25rem; transform: none; } }
 
