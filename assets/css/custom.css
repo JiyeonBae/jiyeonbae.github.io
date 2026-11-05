@@ -694,3 +694,13 @@ a:hover { color: var(--accent-dk); text-decoration: underline; }
 @media (prefers-reduced-motion: reduce) {
   .tree * { animation: none !important; stroke-dashoffset: 0 !important; transform: none !important; }
 }
+
+/* phones: stack Projects thumbnails above the text like Publications */
+@media (max-width: 640px) {
+  #projects .pub { grid-template-columns: 1fr; }
+}
+
+/* small institution logos inline before their names in the bio */
+.inst-logo { display: inline-block; height: 1.15em; width: auto; margin-right: .25em; vertical-align: -.2em; }
+.inst-logo--harvard { height: 1.05em; vertical-align: -.15em; }
+a:has(> .inst-logo) { white-space: nowrap; } /* keep the logo on the same line as the name */
