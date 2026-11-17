@@ -20,7 +20,7 @@ permalink: /publications/
         <img src="/mymuse.png" alt="paper teaser" onerror="this.style.display='none'">
       </div>
       <div class="pub-body">
-        <h3 class="pub-title">MyMuse: A Personal Museum for Continued Inquiry and Reflection</h3>
+        <h3 class="pub-title">MyMuse: A Personal Museum for Post-Visit Inquiry and Reflection</h3>
         <p class="pub-authors"><strong>Jiyeon Bae</strong>, Chunggi Lee, Jinwook Seo, and Hanspeter Pfister</p>
         <p class="pub-cite">Under review at ACM CHI Conference on Human Factors in Computing Systems (CHI), 2027</p>
         <div class="pub-tags"><span class="pub-tag t-vis">Visualization</span><span class="pub-tag t-hai">Human&ndash;AI Interaction</span></div>

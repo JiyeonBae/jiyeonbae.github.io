@@ -7,7 +7,7 @@ permalink: /publications/mymuse/
 <article class="project-detail">
   <a class="back-link" href="/publications/">&larr; Publications</a>
 
-  <h1 class="pd-title">MyMuse: A Personal Museum for Continued Inquiry and Reflection</h1>
+  <h1 class="pd-title">MyMuse: A Personal Museum for Post-Visit Inquiry and Reflection</h1>
   <p class="pd-meta">Human&ndash;AI Interaction &middot; Interactive Visualization &middot; 2026</p>
   <p class="pd-meta">Under Review at ACM CHI 2027</p>
 
@@ -16,32 +16,32 @@ permalink: /publications/mymuse/
   </div>
 
   <h2 class="pd-heading">Overview</h2>
-  <p>MyMuse is an interactive system that supports continued inquiry and reflection after museum visits by connecting artwork photographs with visitors&rsquo; personal questions, interpretations, and experiences. It enables visitors to revisit individual artworks and explore recurring interests and relationships across their personal collections.</p>
+  <p>MyMuse is a post-visit system that supports inquiry and reflection around visitors&rsquo; own artwork photographs. In its Personal Museum, visitors revisit photographed works, ask questions, and record interpretations that inform subsequent responses. An interactive Narrative Report then reorganizes the same records across artworks so visitors can examine recurring interests and relationships among their responses.</p>
 
   <h2 class="pd-heading">Motivation</h2>
   <ul>
-    <li><strong>Lost Personal Context:</strong> Artwork photographs preserve what visitors saw, but not necessarily why they captured a particular work or what it meant to them.</li>
-    <li><strong>Evolving Interpretations:</strong> New knowledge and subsequent encounters can prompt visitors to ask new questions and reconsider their earlier interpretations.</li>
-    <li><strong>Hidden Connections Across Artworks:</strong> Recurring interests may be reflected in visitors&rsquo; questions and interpretations, yet these connections can remain difficult to recognize across separate artwork records.</li>
+    <li><strong>Lost Personal Context:</strong> Artwork photographs may preserve what visitors saw without preserving why it mattered to them.</li>
+    <li><strong>Evolving Interpretations:</strong> As visitors learn more about an artwork and encounter related works, they may notice different aspects and reconsider their earlier interpretations.</li>
+    <li><strong>Hidden Connections Across Artworks:</strong> Even when questions and interpretations are recorded, connections among them can remain difficult to recognize across separate artwork entries.</li>
   </ul>
-  <p class="pd-focus"><strong>Research Focus:</strong> How can interactive systems support continued inquiry around individual artworks while helping visitors recognize recurring interests and connections across their personal records?</p>
+  <p class="pd-focus"><strong>Research Focus:</strong> How can a post-visit system use visitors&rsquo; accumulated personal records to inform subsequent inquiry and help them examine recurring interests and relationships across works?</p>
 
   <h2 class="pd-heading">Formative Study</h2>
-  <p>We conducted semi-structured and photo-elicitation interviews with <strong>10 museum visitors</strong>, using <strong>100 photographs from their own visits</strong> to understand how they recalled, revisited, and reinterpreted artworks.</p>
-  <p>The study revealed difficulties in recovering the reasons behind photographs, opportunities for reinterpretation through new knowledge, and the importance of considering visitors&rsquo; own questions and reflections when examining patterns across collections. These findings informed four design goals.</p>
+  <p>We conducted semi-structured and photo-elicitation interviews with <strong>10 museum and gallery visitors</strong>, using <strong>100 photographs from their own visits</strong>, and analyzed 538 question&ndash;answer units through reflexive thematic analysis.</p>
+  <p>Participants often could not recall why they had photographed a work, described how later knowledge and related works changed what they noticed, and wanted to examine recurring interests across their collections, while cautioning that photographing a work does not necessarily indicate preference. These findings informed four design goals.</p>
 
   <h2 class="pd-heading">Design Goals</h2>
   <ul>
-    <li><strong>Preserve Personal Contributions:</strong> Keep visitors&rsquo; own questions and reflections distinguishable from system-generated content.</li>
-    <li><strong>Support Continued Inquiry:</strong> Allow visitors to revisit artworks and develop interpretations as their knowledge and experiences change.</li>
-    <li><strong>Ground Reflection in Personal Records:</strong> Surface recurring patterns across artworks using evidence from visitors&rsquo; own contributions.</li>
-    <li><strong>Connect Individual and Collection-Level Exploration:</strong> Enable movement between inquiry about individual artworks and reflection across the collection.</li>
+    <li><strong>Keep Visitors&rsquo; Contributions Identifiable:</strong> Store visitors&rsquo; questions and reflections verbatim, distinct from catalogue information and system-generated responses.</li>
+    <li><strong>Keep Artwork Records Open to Further Inquiry:</strong> Let visitors add questions and interpretations over time while keeping earlier entries available, with optional lenses adapted from Cataloging Cultural Objects (CCO) to guide renewed attention.</li>
+    <li><strong>Ground Collection-Level Patterns in Visitor-Authored Records:</strong> Present recurring aspects and relationships alongside their supporting entries so visitors can judge whether they reflect their interests.</li>
+    <li><strong>Connect Individual-Work Inquiry with Collection-Level Reflection:</strong> Let visitors move from a collection-level pattern back to the relevant artworks and records to continue their inquiry.</li>
   </ul>
 
   <h2 class="pd-heading">System Design</h2>
   <ul>
-    <li><strong>Personal Museum &mdash; Artwork-Level Inquiry:</strong> Presents photographed artworks in a virtual gallery where visitors can revisit individual works, ask questions, record personal reflections, and explore related artworks.</li>
-    <li><strong>Personal Records &amp; Context-Aware Inquiry:</strong> Preserves visitors&rsquo; questions and interpretations separately from system-generated content. Using artwork metadata and relevant prior records, MyMuse provides grounded responses that build on earlier inquiries.</li>
+    <li><strong>Personal Museum &mdash; Artwork-Level Inquiry:</strong> Presents visitors&rsquo; photographed artworks in a gallery-like room, grouped by exhibition, where they can revisit works, ask questions, share thoughts, and explore related artworks.</li>
+    <li><strong>Grounded, Record-Aware Responses:</strong> Builds responses from each artwork&rsquo;s verified catalogue record, external art-historical context, and selected prior records, while keeping catalogue information, retrieved context, system responses, and visitor-authored contributions distinguishable.</li>
     <li><strong>Interactive Narrative Report &mdash; Collection-Level Reflection:</strong> Applies narrative visualization principles to organize accumulated personal records through four predefined interpretive lenses&mdash;subject, physical characteristics, style and chronology, and creator. Following a guided narrative, visitors can interactively regroup the collection within these lenses and inspect the original remarks supporting the presented relationships.</li>
   </ul>
 
@@ -56,24 +56,32 @@ permalink: /publications/mymuse/
 
   <h2 class="pd-heading">Technical Approach</h2>
   <ul>
-    <li><strong>Grounded Artwork Inquiry:</strong> Combines verified artwork metadata, external knowledge sources, and relevant personal records to generate context-aware responses through retrieval-augmented generation (RAG).</li>
-    <li><strong>Personal Meaning Graph:</strong> Annotates visitor-authored records using CCO artwork aspects and MyMuEx experiential triggers, enabling retrieval of related questions and reflections across artworks.</li>
-    <li><strong>Evidence-Grounded Narrative Generation:</strong> Uses a deterministic planner to select the narrative structure, groupings, and supporting evidence. An LLM phrases the selected observations, while a separate deterministic verifier checks for unsupported claims.</li>
+    <li><strong>Grounded Artwork Inquiry:</strong> Combines verified catalogue records, Wikidata artist information, structured art-historical context retrieved through ArtRAG, and relevant personal records to generate context-aware responses.</li>
+    <li><strong>Personal Meaning Graph:</strong> Annotates visitor-authored utterances with CCO artwork aspects and MyMuEx experiential triggers. Connections across artworks are computed at query time from shared (aspect, trigger) pairs, rather than stored as claims about the visitor&rsquo;s preferences.</li>
+    <li><strong>Related-Artwork Retrieval:</strong> Retrieves related works from a corpus of about 12,800 artworks drawn from six museum and open collections, by artist, subject, or visual similarity using CLIP embeddings.</li>
+    <li><strong>Evidence-Grounded Narrative Generation:</strong> Uses a deterministic planner to select the entry lens, anchor artwork, groupings, and supporting evidence. An LLM phrases only the selected observations, and a verifier checks for unsupported claims, speculative language, and statements about stable traits, falling back to deterministic wording when needed.</li>
+  </ul>
+
+  <h2 class="pd-heading">Technical Evaluation</h2>
+  <ul>
+    <li><strong>Annotation Agreement:</strong> Model annotations agreed with human coders on the four inquiry lenses at &kappa; = .70 (inter-coder &kappa; = .85).</li>
+    <li><strong>Report Stability:</strong> Across ten repeated runs on unchanged records, the deterministic planner produced identical report compositions, whereas LLM-selected compositions varied.</li>
   </ul>
 
   <h2 class="pd-heading">User Study &amp; Results</h2>
   <p>We conducted two within-subject studies with <strong>16 participants</strong> using their own artwork photographs.</p>
   <ul>
-    <li><strong>Vivid Revisitation:</strong> 13 of 16 participants favored MyMuse over a conventional per-artwork interface for vividly revisiting their museum experiences in direct comparisons.</li>
+    <li><strong>Vivid Revisitation:</strong> In direct comparisons with a per-artwork chat baseline, 13 of 16 participants favored MyMuse for vividly revisiting their museum experiences, and 12 favored it for noticing connections across works.</li>
+    <li><strong>Answer Relevance:</strong> Participants rated MyMuse&rsquo;s answers as better matching what they wanted to know (<em>M</em> = 6.12 vs. 5.31; Holm-adjusted <em>p</em> = .035, <em>r</em> = .69).</li>
     <li><strong>Reflection Across Artworks:</strong> The Narrative Report received significantly higher ratings for recurring-interest awareness, cross-artwork connections, and unexpected discovery than a per-artwork presentation of the same records. The largest effect was observed for cross-artwork connection awareness (<em>M</em> = 6.62 vs. 4.19; Holm-adjusted <em>p</em> = .003, <em>r</em> = .83).</li>
   </ul>
-  <p>These findings suggest that connecting personal inquiry with reflection across accumulated records can help visitors articulate their interests and recognize relationships among their experiences. The evaluation examined immediate effects rather than long-term changes.</p>
+  <p>Participants described both recognizing previously unnoticed connections and articulating familiar interests more precisely. These findings suggest that organizing visitors&rsquo; own records across artworks can support reflection on what connects their responses. The evaluation examined immediate effects in a single session rather than long-term changes.</p>
 
   <h2 class="pd-heading">Research Contributions</h2>
   <ul>
-    <li><strong>Formative Insights:</strong> Identified challenges and opportunities in revisiting artwork photographs and reflecting on personal collections.</li>
-    <li><strong>System Design:</strong> Developed a system connecting continued artwork-level inquiry with evidence-grounded, collection-level narrative reflection.</li>
-    <li><strong>Empirical Findings:</strong> Provided comparative evidence on how organizing accumulated personal records can support revisitation, recurring-interest awareness, and cross-artwork reflection.</li>
+    <li><strong>Formative Insights:</strong> A qualitative account of visitors&rsquo; difficulties and needs when revisiting artwork photographs, including how later knowledge and accumulated collections can prompt reinterpretation and reflection.</li>
+    <li><strong>System Design:</strong> MyMuse, a post-visit personal museum that reuses the questions and interpretations visitors record, both as context for subsequent inquiry and as evidence in a Narrative Report that organizes them across works.</li>
+    <li><strong>Empirical Findings:</strong> Evidence from a controlled evaluation on vivid revisitation, cross-work connections, and awareness and articulation of recurring interests.</li>
   </ul>
 </article>
 
